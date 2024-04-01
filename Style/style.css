@@ -13,7 +13,7 @@ body {
 }
 
 .mainSection {
-	width: 100%;
+	width: 97%;
 }
 
 .header {
@@ -41,8 +41,9 @@ body {
 	height: 30px;
 	width: 150px;
 }
-.logoBetween{
-	gap:10px;
+
+.logoBetween {
+	gap: 10px;
 }
 
 .headerTopics {
@@ -51,26 +52,28 @@ body {
 	font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	cursor: pointer;
-	
-	
+
+
 }
 
 .topics {
-	
+
 	padding: 5px 10px;
 	border-radius: 21px;
 }
+
 .topicsSecond {
 	//padding: 5px 10px;
-	width:62px;
+	width: 62px;
 	border-radius: 21px;
 }
 
 .topics:hover {
 	background-color: hsl(210, 8%, 90%);
 }
+
 .searchBox {
-	
+
 	width: 700px;
 	border-radius: 8px;
 	border: 1px solid #C0C0C0;
@@ -112,41 +115,43 @@ body {
 	color: #1B75D0;
 	border: 1px solid #1b75d0;
 	//margin-left: 18px;
-	width:50px;
-	
+	width: 50px;
+
 }
-.login p{
-	margin-top:0px;
-	padding-left:7px;
+
+.login p {
+	margin-top: 0px;
+	padding-left: 7px;
 }
 
 .login:hover {
 	background-color: hsl(206, 96%, 90%);
-	
+
 }
 
 .signup {
-	
+
 	font-size: 13px;
 	//padding: 5px 10px;
 	background-color: #1b75d0;
 	height: 25px;
 	border-radius: 5px;
 	color: #ffffff;
-	width:50px;
-	
+	width: 50px;
+
 }
-.signup p{
-	padding-left:3px;
+
+.signup p {
+	padding-left: 3px;
 }
 
 .signup:hover {
 	background-color: hsl(210, 80%, 23%);
-	
+
 }
 
 .headerLeftIcons {
-	
+
 	border-right: 2px solid #ddd;
 	height: 600px;
 	width: 190px;
@@ -377,9 +382,8 @@ body {
 }
 
 
-
 .userDate {
-	
+
 	font-size: 13px;
 	color: hsl(210, 8%, 42%);
 	margin-top: 13px;
@@ -406,7 +410,7 @@ body {
 }
 
 .icons {
-	
+
 	font-size: 13px;
 	//gap: 12px;
 	color: hsl(210, 8%, 42%);
@@ -439,17 +443,14 @@ body {
 }
 
 
-
 .profileButton button {
-	right: 60px;
+
 	font-size: 12px;
 	width: 74.45px;
-	border:1px solid #ddd;
+	border: 1px solid #ddd;
 	height: 35.03px;
 	padding-left: 10px;
-	position:absolute;
-	top:74px;
-	border-radius:7px;
+	border-radius: 7px;
 }
 
 .profileButton span {
@@ -458,7 +459,7 @@ body {
 }
 
 .headerSecond {
-	//display: flex;
+
 	font-size: 13px;
 	gap: 5px;
 }
@@ -493,7 +494,7 @@ body {
 }
 
 .secondmainLeftPart {
-	
+
 	margin-top: 15px;
 }
 
@@ -542,7 +543,7 @@ body {
 }
 
 .collectivesImg {
-	//display: flex;
+
 	margin-left: 1px;
 }
 
@@ -555,7 +556,7 @@ body {
 }
 
 .communitiesPart {
-	//display: flex;
+
 	margin-top: 20px;
 }
 
@@ -566,10 +567,10 @@ body {
 }
 
 .viewPart {
-	
+
 	font-size: 13px;
 	margin-left: 55px;
-	
+
 
 }
 
@@ -592,23 +593,23 @@ body {
 }
 
 .communitiesPartInside {
-	
+
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	padding: 10px;
 	margin-top: 12px;
-	/*height: 150px;*/
+
 	font-size: 13px;
 	cursor: pointer;
 }
 
 .firstPart {
-	
+
 	padding: 3px;
 }
 
 .txtFi {
-	margin-right: 85px;
+	margin-right: 79px;
 	color: #1B75D0;
 }
 
@@ -617,7 +618,7 @@ body {
 }
 
 .txtSe {
-	margin-right: 48px;
+	margin-right: 46px;
 	color: #1B75D0;
 }
 
@@ -626,7 +627,7 @@ body {
 }
 
 .txtTh {
-	margin-right: 109px;
+	margin-right: 106px;
 	color: #1B75D0;
 }
 
@@ -635,7 +636,7 @@ body {
 }
 
 .txtFo {
-	margin-right: 107px;
+	margin-right: 100px;
 	color: #1B75D0;
 }
 
@@ -644,7 +645,7 @@ body {
 }
 
 .txtFif {
-	margin-right: 54px;
+	margin-right: 45px;
 	color: #1B75D0;
 }
 
@@ -657,9 +658,8 @@ body {
 }
 
 
-
 .aboutTitle {
-	
+
 	margin-top: 17px;
 	margin-left: 25px;
 }
@@ -673,7 +673,7 @@ body {
 .authorTxt {
 	margin-top: 10px;
 	color: #3B4045;
-	font-size:15px;
+	font-size: 15px;
 }
 
 .authorTxt a {
@@ -688,20 +688,20 @@ body {
 	width: 540px;
 	margin-top: 18px;
 	color: #3B4045;
-	font-size:15px;
+	font-size: 15px;
 }
 
 .sites {
 	padding-top: 20px;
 	color: #3B4045;
-	font-size:15px;
+	font-size: 15px;
 }
 
 .listContents {
 	margin-left: 29px;
 	margin-top: 16px;
 	color: #3B4045;
-	font-size:15px;
+	font-size: 15px;
 }
 
 .listContents a {
@@ -738,8 +738,8 @@ body {
 }
 
 .readBtn {
-	
-	
+
+
 	margin-top: 14px;
 	border: 1px solid #ddd;
 	height: 18px;
@@ -749,7 +749,7 @@ body {
 	padding-top: 3px;
 	cursor: pointer;
 	width: 70px;
-	height:28px;
+	height: 28px;
 	cursor: pointer;
 }
 
@@ -759,10 +759,9 @@ body {
 }
 
 .secondmainRightSecondPart {
-	
+
 	margin-top: 47px;
 }
-
 
 
 .badgesTxt h3 {
@@ -772,16 +771,10 @@ body {
 	margin-left: 25px;
 }
 
-/*.badgesContents {
-	display: flex;
-	gap: 625px;
-	align-items:baseline;
-	justify-content:space-between;
-}*/
 
 .viewAll {
 	font-size: 13px;
-	margin-top: 14px;
+
 	color: #636B74;
 	cursor: pointer;
 }
@@ -790,3 +783,426 @@ body {
 	color: hsl(210, 8%, 25%);
 }
 
+.goldBox {
+
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-top: 12px;
+
+	width: 250px;
+	margin-left: 20px
+}
+
+.goldBoxInside {
+
+	margin-left: 16px;
+	margin-top: 15px;
+	gap: 6px;
+}
+
+.goldBadgeTxt h3 {
+	font-size: 21px;
+}
+
+.goldTxt {
+	font-size: 12px;
+}
+
+
+.delegatesBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 3px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+	width: 69px;
+	background-color: hsl(210, 8%, 95%);
+}
+
+.secondSetFirst {
+
+	font-size: 11px;
+	margin-left: 15px;
+	gap: 5px;
+	margin-top: 8px;
+
+}
+
+.iconFirst {
+	border: 1px solid black;
+	width: 6px;
+	height: 6px;
+	border-radius: 50px;
+	margin-top: 6px;
+	background-color: hsl(43, 85%, 50%);
+	border-style: none;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.delegatesBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.delegates {
+	margin-left: 1px;
+}
+
+.datesFirst {
+	margin-left: 77px;
+
+}
+
+.secondSetSecond {
+
+	font-size: 11px;
+	margin-left: 15px;
+	gap: 5px;
+	margin-top: 8px;
+
+}
+
+.inheritanceBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+
+	background-color: hsl(210, 8%, 95%);
+}
+
+.inheritanceBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.inheritance {
+	margin-left: 1px;
+}
+
+.datesSecond {
+	margin-left: 61px;
+}
+
+.secondSetThird {
+
+	font-size: 11px;
+	margin-left: 15px;
+	gap: 5px;
+	margin-top: 8px;
+
+}
+
+.eventsBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+	width: 60px;
+	background-color: hsl(210, 8%, 95%);
+}
+
+.eventsBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.events {
+	margin-left: 1px;
+}
+
+.datesThird {
+	margin-left: 82px;
+}
+
+.silverBox {
+
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-top: 12px;
+
+	width: 250px;
+	margin-left: 20px
+}
+
+.silverBoxInside {
+
+	margin-left: 16px;
+	margin-top: 15px;
+	gap: 6px;
+}
+
+.silverBadgeTxt h3 {
+	font-size: 21px;
+}
+
+.silverTxt {
+	font-size: 12px;
+}
+
+
+.netBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+	width: 59px;
+	background-color: hsl(210, 8%, 95%);
+}
+
+.netBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.secondSetSecondFirst {
+
+
+	font-size: 11px;
+	margin-left: 15px;
+	gap: 5px;
+	margin-top: 8px;
+
+}
+
+.iconSecond {
+	border: 1px solid black;
+	width: 6px;
+	height: 6px;
+	border-radius: 50px;
+	margin-top: 6px;
+	background-color: hsl(210, 8%, 80%);
+	border-style: none;
+	margin-right: 5px;
+}
+
+.net {
+	margin-left: 1px;
+}
+
+.datesSecondFirst {
+	margin-left: 84px;
+
+}
+
+.secondSetSecondSecond {
+
+	font-size: 11px;
+	margin-left: 15px;
+	margin-top: 8px;
+
+}
+
+.codingBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+	width: 82px;
+	background-color: hsl(210, 8%, 95%);
+}
+
+.codingBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.coding {
+	margin-left: 1px;
+}
+
+.datesSecondSecond {
+	margin-left: 62px;
+}
+
+.secondSetSecondThird {
+
+	font-size: 11px;
+	margin-left: 15px;
+	margin-top: 8px;
+
+}
+
+.parametersBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+	width: 78px;
+	background-color: hsl(210, 8%, 95%);
+}
+
+.parametersBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.parameters {
+	margin-left: 1px;
+}
+
+.datesSecondThird {
+	margin-left: 67px;
+}
+
+
+.bronzeBox {
+
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-top: 12px;
+
+	width: 250px;
+
+}
+
+.bronzeBoxInside {
+
+	margin-left: 16px;
+	margin-top: 15px;
+	gap: 6px;
+}
+
+.bronzeBadgeTxt h3 {
+	font-size: 21px;
+}
+
+.bronzeTxt {
+	font-size: 12px;
+}
+
+.genericBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+	width: 76px;
+	background-color: hsl(210, 8%, 95%);
+}
+
+.genericBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.secondSetThirdFirst {
+
+	font-size: 11px;
+	margin-left: 15px;
+	margin-top: 8px;
+
+}
+
+.iconThird {
+	border: 1px solid black;
+	width: 6px;
+	height: 6px;
+	border-radius: 50px;
+	margin-top: 6px;
+	background-color: hsl(27, 87%, 72%);
+	border-style: none;
+	margin-right: 5px;
+}
+
+.generic {
+	margin-left: 1px;
+}
+
+.datesThirdFirst {
+	margin-left: 70px;
+
+}
+
+
+.parameters {
+	margin-left: 1px;
+}
+
+.datesSecondThird {
+	margin-left: 67px;
+}
+
+.secondSetThirdSecond {
+
+	font-size: 11px;
+	margin-left: 15px;
+	margin-top: 8px;
+
+}
+
+.nullBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+
+	background-color: hsl(210, 8%, 95%);
+}
+
+.nullBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.null {
+	margin-left: 1px;
+}
+
+.datesThirdSecond {
+	margin-left: 28px;
+}
+
+.secondSetThirdThird {
+
+	font-size: 11px;
+	margin-left: 15px;
+	margin-top: 8px;
+
+}
+
+.xmlBtn {
+
+	border: 1px solid hsl(210, 8%, 80%);
+	padding-left: 7px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+	background-color: hsl(210, 8%, 95%);
+}
+
+.xmlBtn:hover {
+	background-color: hsl(210, 8%, 85%);
+}
+
+.xml {
+	margin-left: 1px;
+}
+
+.datesThirdThird {
+	margin-left: 62px;
+}
