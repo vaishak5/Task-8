@@ -2,8 +2,6 @@
 	padding: 0px;
 	margin: 0px;
 }
-
-
 body {
 	margin: 0px;
 	padding: 0px;
@@ -11,31 +9,25 @@ body {
 	font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .mainSection {
 	width: 97%;
 }
-
 .header {
 	border-top: 3px solid hsl(27, 90%, 50%);
 	width: 100%;
 	border-bottom: 1px solid #ddd;
-
 }
 
 .stackLogo {
-
 	padding-top: 11px;
 	padding-left: 7px;
 	padding-right: 11px;
 	cursor: pointer;
 }
-
 .stackLogo:hover {
 	background-color: hsl(210, 8%, 85%);
 	border-radius: 5px;
 }
-
 .logo {
 	color: #1B75D0;
 	height: 30px;
@@ -52,10 +44,7 @@ body {
 	font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	cursor: pointer;
-
-
 }
-
 .topics {
 
 	padding: 5px 10px;
@@ -71,9 +60,7 @@ body {
 .topics:hover {
 	background-color: hsl(210, 8%, 90%);
 }
-
 .searchBox {
-
 	width: 700px;
 	border-radius: 8px;
 	border: 1px solid #C0C0C0;
@@ -81,7 +68,6 @@ body {
 	margin-bottom: 10px;
 	margin-left: 10px;
 }
-
 .searchBox input {
 	font-size: 13px;
 	outline: none;
@@ -89,24 +75,20 @@ body {
 	background-color: #FFFFFF;
 	color: black;
 }
-
 .userBox span {
 	color: #636B74;
 	font-size: 25px;
 }
-
 .searchIcon {
 	color: black;
 	margin-right: 1px;
 	margin-left: 4px;
 	padding: 5px;
 }
-
 .headerEnd {
 	gap: 10px;
 	cursor: pointer;
 }
-
 .login {
 	font-size: 13px;
 	//padding: 5px 10px;
@@ -116,21 +98,16 @@ body {
 	border: 1px solid #1b75d0;
 	//margin-left: 18px;
 	width: 50px;
-
 }
-
 .login p {
 	margin-top: 0px;
 	padding-left: 7px;
 }
-
 .login:hover {
 	background-color: hsl(206, 96%, 90%);
 
 }
-
 .signup {
-
 	font-size: 13px;
 	//padding: 5px 10px;
 	background-color: #1b75d0;
@@ -138,104 +115,80 @@ body {
 	border-radius: 5px;
 	color: #ffffff;
 	width: 50px;
-
 }
-
 .signup p {
 	padding-left: 3px;
 }
-
 .signup:hover {
 	background-color: hsl(210, 80%, 23%);
 
 }
-
 .headerLeftIcons {
-
 	border-right: 2px solid #ddd;
-	height: 600px;
-	width: 190px;
+	/*height: 600px;
+	width: 190px;*/
 	border-bottom: 2px solid #ddd;
 }
-
 .headerLeftFirst {
 	margin-top: 21px;
 	margin-left: 39px;
 	font-size: 13px;
 	gap: 14px;
 }
-
 .homeSection {
 	gap: 7px;
 	cursor: pointer;
 }
-
 .homeSection svg {
 	fill: hsl(210, 8%, 25%);
 }
-
 .homeTxt {
 	color: hsl(210, 8%, 25%);
 }
-
 .homeSection svg:hover {
 	fill: hsl(210, 8%, 5%);
 }
-
 .homeTxt:hover {
 	color: hsl(210, 8%, 5%);
 }
-
 .questionSection {
 	gap: 7px;
 	cursor: pointer;
 }
-
 .questionSection svg {
 	fill: hsl(210, 8%, 25%);
 }
-
 .questionTxt {
 	color: hsl(210, 8%, 25%);
 }
-
 .questionTxt:hover {
 	color: hsl(210, 8%, 5%);
 }
-
 .questionSection svg:hover {
 	fill: hsl(210, 8%, 5%);
 }
-
 .tagsSection {
 	gap: 7px;
 	cursor: pointer;
 }
-
 .tagsSection svg {
 	fill: hsl(210, 8%, 25%);
 }
-
 .tagsTxt {
 	color: hsl(210, 8%, 25%);
 }
-
 .tagsSection svg:hover {
 	fill: hsl(210, 8%, 5%);
 }
-
 .tagsTxt:hover {
 	color: hsl(210, 8%, 5%);
 }
-
 .headerLeftSecond {
 	margin-left: 35px;
 	font-size: 13px;
 	margin-top: 28px;
 	gap: 11px;
-
 }
-
 .usersSection {
 	gap: 7px;
 	width: 89%;
@@ -246,74 +199,58 @@ body {
 	outline: none;
 	border-style: none;
 	cursor: pointer;
-
 }
-
 .companiesSection {
 	gap: 7px;
 	margin-left: 4px;
 	cursor: pointer;
 }
-
 .companiesSection svg {
 	fill: hsl(210, 8%, 25%);
 }
-
 .companiesTxt {
 	color: hsl(210, 8%, 25%);
 }
-
 .companiesSection svg:hover {
 	fill: hsl(210, 8%, 5%);
 }
-
 .companiesTxt:hover {
 	color: hsl(210, 8%, 5%);
 }
-
 .headerLeftThird {
 	margin-left: 35px;
 	font-size: 13px;
 	margin-top: 25px;
 	gap: 17px;
 }
-
 .labsSection {
 	gap: 86px;
 	margin-left: 4px;
 	cursor: pointer;
 }
-
 .labsSection svg {
 	fill: hsl(210, 8%, 25%);
 }
-
 .labsTxt {
 	font-weight: 500;
 }
-
 .labsSection svg:hover {
 	fill: hsl(210, 8%, 5%);
 }
-
 .discussionsSection {
 	gap: 7px;
 	margin-left: 4px;
 	cursor: pointer;
 }
-
 .discussionsSection svg {
 	fill: hsl(210, 8%, 25%);
 }
-
 .discussionsTxt {
 	color: #3b4045;
 }
-
 .discussionsTxt:hover {
 	color: hsl(210, 8%, 5%);
 }
-
 .headerLeftFourth {
 	margin-left: 35px;
 	font-size: 13px;
@@ -377,7 +314,7 @@ body {
 .userName {
 	font-size: 34px;
 	margin-left: 5px;
-	width: 200px;
+	/*width: 200px;*/
 	margin-top: 22px;
 }
 
@@ -609,7 +546,7 @@ body {
 }
 
 .txtFi {
-	margin-right: 79px;
+	margin-right: 76px;
 	color: #1B75D0;
 }
 
@@ -618,7 +555,7 @@ body {
 }
 
 .txtSe {
-	margin-right: 46px;
+	margin-right: 45px;
 	color: #1B75D0;
 }
 
@@ -661,7 +598,7 @@ body {
 .aboutTitle {
 
 	margin-top: 17px;
-	margin-left: 25px;
+	/*margin-left: 25px;*/
 }
 
 .aboutTitle h3 {
@@ -685,7 +622,7 @@ body {
 }
 
 .authorDetails {
-	width: 540px;
+	/*width: 540px;*/
 	margin-top: 18px;
 	color: #3B4045;
 	font-size: 15px;
@@ -782,6 +719,9 @@ body {
 .viewAll:hover {
 	color: hsl(210, 8%, 25%);
 }
+.boxsec{
+	gap:145px;
+}
 
 .goldBox {
 
@@ -789,7 +729,7 @@ body {
 	border-radius: 10px;
 	margin-top: 12px;
 
-	width: 250px;
+	/*width: 250px;*/
 	margin-left: 20px
 }
 
@@ -851,10 +791,10 @@ body {
 	margin-left: 1px;
 }
 
-.datesFirst {
+/*.datesFirst {
 	margin-left: 77px;
 
-}
+}*/
 
 .secondSetSecond {
 
@@ -886,9 +826,9 @@ body {
 	margin-left: 1px;
 }
 
-.datesSecond {
+/*.datesSecond {
 	margin-left: 61px;
-}
+}*/
 
 .secondSetThird {
 
@@ -920,9 +860,9 @@ body {
 	margin-left: 1px;
 }
 
-.datesThird {
+/*.datesThird {
 	margin-left: 82px;
-}
+}*/
 
 .silverBox {
 
@@ -930,7 +870,7 @@ body {
 	border-radius: 10px;
 	margin-top: 12px;
 
-	width: 250px;
+	/*width: 250px;*/
 	margin-left: 20px
 }
 
@@ -992,10 +932,10 @@ body {
 	margin-left: 1px;
 }
 
-.datesSecondFirst {
+/*.datesSecondFirst {
 	margin-left: 84px;
 
-}
+}*/
 
 .secondSetSecondSecond {
 
@@ -1026,9 +966,9 @@ body {
 	margin-left: 1px;
 }
 
-.datesSecondSecond {
+/*.datesSecondSecond {
 	margin-left: 62px;
-}
+}*/
 
 .secondSetSecondThird {
 
@@ -1059,9 +999,9 @@ body {
 	margin-left: 1px;
 }
 
-.datesSecondThird {
+/*.datesSecondThird {
 	margin-left: 67px;
-}
+}*/
 
 
 .bronzeBox {
@@ -1070,7 +1010,7 @@ body {
 	border-radius: 10px;
 	margin-top: 12px;
 
-	width: 250px;
+	/*width: 250px;*/
 
 }
 
@@ -1129,19 +1069,19 @@ body {
 	margin-left: 1px;
 }
 
-.datesThirdFirst {
+/*.datesThirdFirst {
 	margin-left: 70px;
 
-}
+}*/
 
 
 .parameters {
 	margin-left: 1px;
 }
 
-.datesSecondThird {
+/*.datesSecondThird {
 	margin-left: 67px;
-}
+}*/
 
 .secondSetThirdSecond {
 
@@ -1172,9 +1112,9 @@ body {
 	margin-left: 1px;
 }
 
-.datesThirdSecond {
+/*.datesThirdSecond {
 	margin-left: 28px;
-}
+}*/
 
 .secondSetThirdThird {
 
@@ -1203,6 +1143,6 @@ body {
 	margin-left: 1px;
 }
 
-.datesThirdThird {
+/*.datesThirdThird {
 	margin-left: 62px;
-}
+}*/
