@@ -694,14 +694,39 @@ body {
 	font-size: 11px;
 	color: #3b4045;
 }
-
-.secondmainRightSecondPart {
-
-	margin-top: 47px;
+.dot {
+    height: 6.5px;
+    width: 6.5px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
+.iconTitle {
+    font-size: 11px;
+    border-radius: 6px;
+    color: #525960;
+    background-color: #f1f2f3;
+}
 
-.badgesTxt h3 {
+.badgesDate {
+    color: hsl(210, 8%, 25%);
+    font-size: 11px;
+}
+
+.tag-dot {
+    background-color: #FFD700;
+    margin: 10px 6px 6px 7px;
+}
+.badgesCard{
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+.ThirdMainRightPart {
+	
+	margin-top: 20px;
+}
+
+.topTagsTxt h3 {
 	font-size: 21px;
 	color: #0c0d0e;
 	font-weight: 400;
@@ -709,440 +734,651 @@ body {
 }
 
 
-.viewAll {
-	font-size: 13px;
 
+.viewallTags {
+	font-size: 13px;
+	margin-top: 14px;
 	color: #636B74;
 	cursor: pointer;
 }
 
-.viewAll:hover {
+.viewallTags:hover {
 	color: hsl(210, 8%, 25%);
 }
-.boxsec{
-	gap:145px;
-}
 
-.goldBox {
-
+.firstBox {
 	border: 1px solid #ddd;
-	border-radius: 10px;
-	margin-top: 12px;
-
-	/*width: 250px;*/
-	margin-left: 20px
-}
-
-.goldBoxInside {
-
-	margin-left: 16px;
-	margin-top: 15px;
-	gap: 6px;
-}
-
-.goldBadgeTxt h3 {
-	font-size: 21px;
-}
-
-.goldTxt {
-	font-size: 12px;
-}
-
-
-.delegatesBtn {
-
-	border: 1px solid hsl(210, 8%, 80%);
-
-	padding-left: 3px;
+	
 	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	cursor: pointer;
-	width: 69px;
-	background-color: hsl(210, 8%, 95%);
-}
-
-.secondSetFirst {
-
-	font-size: 11px;
-	margin-left: 15px;
-	gap: 5px;
-	margin-top: 8px;
+	
+	margin-top: 13px;
 
 }
 
-.iconFirst {
+.firstBoxInside {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+	
+}
+
+
+
+.goldIcon {
 	border: 1px solid black;
 	width: 6px;
-	height: 6px;
+	height: 5px;
 	border-radius: 50px;
-	margin-top: 6px;
+	margin-top: 8px;
 	background-color: hsl(43, 85%, 50%);
 	border-style: none;
-	margin-right: 5px;
-	cursor: pointer;
+	margin-left: 5px;
 }
 
-.delegatesBtn:hover {
-	background-color: hsl(210, 8%, 85%);
-}
 
-.delegates {
-	margin-left: 1px;
-}
-
-/*.datesFirst {
-	margin-left: 77px;
-
-}*/
-
-.secondSetSecond {
-
-	font-size: 11px;
-	margin-left: 15px;
+.firstNum {
+	
 	gap: 5px;
-	margin-top: 8px;
-
 }
 
-.inheritanceBtn {
-
-	border: 1px solid hsl(210, 8%, 80%);
-
-	padding-left: 7px;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	cursor: pointer;
-
-	background-color: hsl(210, 8%, 95%);
+.firstNum h3 {
+	font-size: 17px;
+	color: #0C0D0E;
+	font-weight: 400;
 }
 
-.inheritanceBtn:hover {
-	background-color: hsl(210, 8%, 85%);
+.firstNumTxt {
+	font-size: 13px;
+	
+	color: #636B74;
 }
 
-.inheritance {
-	margin-left: 1px;
-}
-
-/*.datesSecond {
-	margin-left: 61px;
-}*/
-
-.secondSetThird {
-
-	font-size: 11px;
-	margin-left: 15px;
+.secondNum {
+	display: flex;
 	gap: 5px;
-	margin-top: 8px;
-
 }
 
-.eventsBtn {
+.secondNum h3 {
+	font-size: 17px;
+	color: #0C0D0E;
+	font-weight: 400;
+	padding-left: 11px;
+}
 
-	border: 1px solid hsl(210, 8%, 80%);
+.secondNumTxt {
+	font-size: 13px;
+	
+	color: #636B74;
+}
 
+
+
+.thirdNum h3 {
+	font-size: 17px;
+	color: #0C0D0E;
+	font-weight: 400;
 	padding-left: 7px;
+}
+
+.thirdNumTxt {
+	font-size: 13px;
+	
+	color: #636B74;
+}
+
+.cHash {
+	
+	border: 1px solid black;
 	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding-left: 6px;
+	padding-right: 4px;
+	padding-bottom: 3px;
+	border-style: none;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
 	cursor: pointer;
-	width: 60px;
-	background-color: hsl(210, 8%, 95%);
+	font-size: 13px;
 }
 
-.eventsBtn:hover {
-	background-color: hsl(210, 8%, 85%);
+.cHash:hover {
+	background-color: hsl(210, 80%, 91%);
 }
 
-.events {
-	margin-left: 1px;
+.firstBoxInsideSecond {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+	
 }
 
-/*.datesThird {
-	margin-left: 82px;
-}*/
+.java {
+	
+	border: 1px solid black;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
 
-.silverBox {
+.java:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+
+
+
+.firstBoxInsideThird {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+	
+}
+
+.dotnet {
+	
+	border: 1px solid black;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.dotnet:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+
+
+
+.firstBoxInsideFourth {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+	
+}
+
+.linq {
+	
+	border: 1px solid black;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.linq:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+
+.numSectionFourth {
+	display: flex;
+
+}
+
+.firstBoxInsideFifth {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+	justify-content: space-between;
+}
+
+.string {
+	
+	border: 1px solid black;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.string:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+
+
+
+.firstBoxInsideSixth {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+	
+}
+
+.generics {
+	
+	border: 1px solid black;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.generics:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+
+.numSectionSixth {
+	display: flex;
+}
+
+
+.topPostsTxt h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+	
+}
+
+.viewallNxtPart {
+	font-size: 13px;
+	
+}
+
+.viewallNxtPart a {
+	text-decoration: none;
+	color: #1B75D0;
+}
+
+.viewallNxtPart a:hover {
+	color: hsl(210, 77%, 36%);
+}
+
+.boxContents {
+	margin-top: 11px;
+}
+
+.boxFirst {
+	display: flex;
+	gap: 10px;
+	font-size: 11px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	
+	cursor: pointer;
+	height: 28px;
+}
+
+.allBox {
+	border-right: 1px solid #ddd;
+	width: 28px;
+	padding-top: 5px;
+	background-color: hsl(210, 8%, 90%);
+}
+
+.allTxt {
+	padding-left: 9px;
+}
+
+.quesBox {
+	padding-top: 5px;
+	padding-right: 5px;
+	
+}
+
+.ansBox {
+	padding-top: 6px;
+	
+	width: 51px
+}
+
+.artBox {
+	padding-top: 6px;
+	width: 47px;
+
+}
+
+.boxSecond {
+	
+	gap: 5px;
+	font-size: 11px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	height: 28px;
+	margin-left: 11px;
+	cursor: pointer;
+}
+
+.scoreBox {
+	
+	width: 39px;
+	padding-top: 5px;
+	background-color: hsl(210, 8%, 90%);
+}
+
+.scoreTxt {
+	padding-left: 9px;
+}
+
+.newestBox {
+	padding-top: 5px;
+	padding-right: 5px;
+	
+}
+
+.secondMainBox {
+	border: 1px solid #ddd;
+	
+	border-radius: 5px;
+	
+	margin-top: 13px;
+
+}
+
+.secondMainBoxInside {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+
+
+.numSet {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding-left: 2px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	background-color: hsl(148, 70%, 31%);
+	border-style: none;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.numSetThird {
 
 	border: 1px solid #ddd;
-	border-radius: 10px;
-	margin-top: 12px;
+	color: #0C0D0E;
+	border-radius: 3px;
+	padding-left: 4px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	margin-bottom: 5px;
 
-	/*width: 250px;*/
-	margin-left: 20px
+
 }
 
-.silverBoxInside {
 
-	margin-left: 16px;
-	margin-top: 15px;
-	gap: 6px;
+
+.sentence {
+	font-size: 14px;
+	padding-left: 18px;
+	color: hsl(210, 77%, 46%);
+	cursor: pointer;
 }
 
-.silverBadgeTxt h3 {
+.sentence:hover {
+	color: hsl(209, 100%, 32%);
+}
+
+.sentenceFt {
+	font-size: 14px;
+	padding-left: 12px;
+	color: hsl(210, 77%, 46%);
+	cursor: pointer;
+}
+
+.sentenceFt:hover {
+	color: hsl(209, 100%, 32%);
+}
+
+.sentenceThird {
+	font-size: 14px;
+	padding-left: 12px;
+	color: hsl(210, 77%, 46%);
+	cursor: pointer;
+}
+
+.sentenceThird:hover {
+	color: hsl(209, 100%, 32%);
+}
+
+.yearSet {
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: hsl(210, 8%, 42%);
+}
+
+.secondMainBoxInsideSecond {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideThird {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideFourth {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideFifth {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideSixth {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideSeventh {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideEight {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideNine {
+	
+	border-bottom: 1px solid #ddd;
+	
+	padding: 13px;
+}
+
+.secondMainBoxInsideTen {
+	
+	padding: 13px;
+}
+
+
+.topMetaTxt h3 {
 	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+	
 }
 
-.silverTxt {
-	font-size: 12px;
+.topMetaRight {
+	
+	margin-top: 7px;
+}
+
+.quesPart {
+	display: flex;
+	
+	font-size: 13px;
+	color:#636B74;
 }
 
 
-.netBtn {
 
-	border: 1px solid hsl(210, 8%, 80%);
-
-	padding-left: 7px;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	cursor: pointer;
-	width: 59px;
-	background-color: hsl(210, 8%, 95%);
-}
-
-.netBtn:hover {
-	background-color: hsl(210, 8%, 85%);
-}
-
-.secondSetSecondFirst {
-
-
-	font-size: 11px;
-	margin-left: 15px;
-	gap: 5px;
-	margin-top: 8px;
+.ansPart {
+	
+	font-size: 13px;
+	color:#636B74;
 
 }
 
-.iconSecond {
-	border: 1px solid black;
-	width: 6px;
-	height: 6px;
-	border-radius: 50px;
-	margin-top: 6px;
-	background-color: hsl(210, 8%, 80%);
-	border-style: none;
-	margin-right: 5px;
-}
 
-.net {
-	margin-left: 1px;
-}
-
-/*.datesSecondFirst {
-	margin-left: 84px;
-
-}*/
-
-.secondSetSecondSecond {
-
-	font-size: 11px;
-	margin-left: 15px;
-	margin-top: 8px;
-
-}
-
-.codingBtn {
-
-	border: 1px solid hsl(210, 8%, 80%);
-
-	padding-left: 7px;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	cursor: pointer;
-	width: 82px;
-	background-color: hsl(210, 8%, 95%);
-}
-
-.codingBtn:hover {
-	background-color: hsl(210, 8%, 85%);
-}
-
-.coding {
-	margin-left: 1px;
-}
-
-/*.datesSecondSecond {
-	margin-left: 62px;
-}*/
-
-.secondSetSecondThird {
-
-	font-size: 11px;
-	margin-left: 15px;
-	margin-top: 8px;
-
-}
-
-.parametersBtn {
-
-	border: 1px solid hsl(210, 8%, 80%);
-
-	padding-left: 7px;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	cursor: pointer;
-	width: 78px;
-	background-color: hsl(210, 8%, 95%);
-}
-
-.parametersBtn:hover {
-	background-color: hsl(210, 8%, 85%);
-}
-
-.parameters {
-	margin-left: 1px;
-}
-
-/*.datesSecondThird {
-	margin-left: 67px;
-}*/
-
-
-.bronzeBox {
-
+.thirdMainBox {
 	border: 1px solid #ddd;
-	border-radius: 10px;
-	margin-top: 12px;
-
-	/*width: 250px;*/
+	
+	border-radius: 5px;
+	
+	margin-top: 5px;
 
 }
 
-.bronzeBoxInside {
-
-	margin-left: 16px;
-	margin-top: 15px;
-	gap: 6px;
+.thirdMainBoxInside {
+	
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+	
 }
 
-.bronzeBadgeTxt h3 {
-	font-size: 21px;
+.logoNum {
+	
+	gap: 7px;
 }
 
-.bronzeTxt {
+
+.numSets {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	font-size: 13px;
+
+	color: #0c0d0e;
+	
+}
+
+.secondSentence {
+	cursor: pointer;
+	font-size: 15px;
+	padding-left: 18px;
+	color: hsl(210, 77%, 46%);
+}
+
+.secondSentence:hover {
+	color: hsl(209, 100%, 32%);
+}
+
+.thirdMainBoxInside {
+	
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+	
+}
+
+.thirdMainBoxInsideLast {
+	padding: 13px;
+	
+}
+
+
+.topNetworkTxt h3 {
+	font-size: 20px;
+	color: #0c0d0e;
+	font-weight: 400;
+	
+}
+
+.viewallNetwork {
 	font-size: 12px;
-}
-
-.genericBtn {
-
-	border: 1px solid hsl(210, 8%, 80%);
-
-	padding-left: 7px;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	color: #636B74;
 	cursor: pointer;
-	width: 76px;
-	background-color: hsl(210, 8%, 95%);
 }
 
-.genericBtn:hover {
-	background-color: hsl(210, 8%, 85%);
+.viewallNetwork:hover {
+	color: hsl(210, 8%, 25%);
 }
 
-.secondSetThirdFirst {
-
-	font-size: 11px;
-	margin-left: 15px;
-	margin-top: 8px;
-
-}
-
-.iconThird {
-	border: 1px solid black;
-	width: 6px;
-	height: 6px;
-	border-radius: 50px;
-	margin-top: 6px;
-	background-color: hsl(27, 87%, 72%);
-	border-style: none;
-	margin-right: 5px;
-}
-
-.generic {
-	margin-left: 1px;
-}
-
-/*.datesThirdFirst {
-	margin-left: 70px;
-
-}*/
-
-
-.parameters {
-	margin-left: 1px;
-}
-
-/*.datesSecondThird {
-	margin-left: 67px;
-}*/
-
-.secondSetThirdSecond {
-
-	font-size: 11px;
-	margin-left: 15px;
-	margin-top: 8px;
-
-}
-
-.nullBtn {
-
-	border: 1px solid hsl(210, 8%, 80%);
-
-	padding-left: 7px;
+.fourthMainBox {
+	border: 1px solid #ddd;
 	border-radius: 5px;
+	margin-top: 5px;
+
+}
+
+.fourthMainBoxInside {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+
+.logosNum {
+	gap: 7px;
+}
+
+.numsSets {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 6px;
+	padding-top: 3px;
 	padding-bottom: 5px;
-	padding-top: 5px;
+	font-size: 13px;
+	color: #0c0d0e;
+	
+}
+
+.secondSentences {
 	cursor: pointer;
-
-	background-color: hsl(210, 8%, 95%);
+	font-size: 15px;
+	padding-left: 18px;
+	color: hsl(210, 77%, 46%);
 }
 
-.nullBtn:hover {
-	background-color: hsl(210, 8%, 85%);
+.secondSentences:hover {
+	color: hsl(209, 100%, 32%);
 }
 
-.null {
-	margin-left: 1px;
+.fourthMainBoxInsideLast {
+	padding: 13px;
+	
 }
-
-/*.datesThirdSecond {
-	margin-left: 28px;
-}*/
-
-.secondSetThirdThird {
-
-	font-size: 11px;
-	margin-left: 15px;
-	margin-top: 8px;
-
-}
-
-.xmlBtn {
-
-	border: 1px solid hsl(210, 8%, 80%);
-	padding-left: 7px;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	cursor: pointer;
-	background-color: hsl(210, 8%, 95%);
-}
-
-.xmlBtn:hover {
-	background-color: hsl(210, 8%, 85%);
-}
-
-.xml {
-	margin-left: 1px;
-}
-
-/*.datesThirdThird {
-	margin-left: 62px;
-}*/
