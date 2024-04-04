@@ -19,9 +19,7 @@ body {
 }
 
 .stackLogo {
-	padding-top: 11px;
-	padding-left: 7px;
-	padding-right: 11px;
+	padding:11px 11px 0px 7px;
 	cursor: pointer;
 }
 .stackLogo:hover {
@@ -46,27 +44,25 @@ body {
 	cursor: pointer;
 }
 .topics {
-
 	padding: 5px 10px;
 	border-radius: 21px;
 }
-
 .topicsSecond {
-	//padding: 5px 10px;
-	width: 62px;
+	padding: 5px 10px;
 	border-radius: 21px;
+	width:80px;
 }
-
 .topics:hover {
+	background-color: hsl(210, 8%, 90%);
+}
+.topicsSecond:hover {
 	background-color: hsl(210, 8%, 90%);
 }
 .searchBox {
 	width: 700px;
 	border-radius: 8px;
 	border: 1px solid #C0C0C0;
-	margin-top: 13px;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	margin:13px 0px 10px 10px;
 }
 .searchBox input {
 	font-size: 13px;
@@ -81,8 +77,7 @@ body {
 }
 .searchIcon {
 	color: black;
-	margin-right: 1px;
-	margin-left: 4px;
+	margin:0px 1px 0px 4px;
 	padding: 5px;
 }
 .headerEnd {
@@ -91,12 +86,10 @@ body {
 }
 .login {
 	font-size: 13px;
-	//padding: 5px 10px;
-	height: 25px;
+	height: 35px;
 	border-radius: 5px;
 	color: #1B75D0;
 	border: 1px solid #1b75d0;
-	//margin-left: 18px;
 	width: 50px;
 }
 .login p {
@@ -109,15 +102,15 @@ body {
 }
 .signup {
 	font-size: 13px;
-	//padding: 5px 10px;
 	background-color: #1b75d0;
-	height: 25px;
+	height: 35px;
 	border-radius: 5px;
 	color: #ffffff;
-	width: 50px;
+	width: 65px;
 }
 .signup p {
 	padding-left: 3px;
+	padding-right:3px;
 }
 .signup:hover {
 	background-color: hsl(210, 80%, 23%);
@@ -125,13 +118,10 @@ body {
 }
 .headerLeftIcons {
 	border-right: 2px solid #ddd;
-	/*height: 600px;
-	width: 190px;*/
 	border-bottom: 2px solid #ddd;
 }
 .headerLeftFirst {
-	margin-top: 21px;
-	margin-left: 39px;
+	margin:21px 0px 0px 39px;
 	font-size: 13px;
 	gap: 14px;
 }
@@ -218,10 +208,9 @@ body {
 	color: hsl(210, 8%, 5%);
 }
 .headerLeftThird {
-	margin-left: 35px;
 	font-size: 13px;
-	margin-top: 25px;
 	gap: 17px;
+	margin:25px 0px 0px 35px;
 }
 .labsSection {
 	gap: 86px;
@@ -252,22 +241,17 @@ body {
 	color: hsl(210, 8%, 5%);
 }
 .headerLeftFourth {
-	margin-left: 35px;
 	font-size: 13px;
-	margin-top: 27px;
 	gap: 15px;
+	margin:27px 0px 0px 35px;
 }
-
 .collectivesSection {
 	gap: 38px;
-	margin-left: 4px;
 	cursor: pointer;
 }
-
 .collectivesSection svg {
 	fill: hsl(210, 8%, 25%);
 }
-
 .collectivesTxt {
 	font-weight: 500;
 }
@@ -275,17 +259,13 @@ body {
 .collectivesSection svg:hover {
 	fill: hsl(210, 8%, 5%);
 }
-
 .exploreSection {
 	gap: 7px;
-	margin-left: 4px;
 	cursor: pointer;
 }
-
 .exploreSection svg {
 	fill: hsl(27, 90%, 55%)
 }
-
 .exploreTxt {
 	color: #3b4045;
 }
@@ -293,72 +273,52 @@ body {
 .exploreTxt:hover {
 	color: hsl(210, 8%, 5%);
 }
-
 .headerLeftFifth {
-	margin-left: 35px;
 	font-size: 13px;
-	margin-top: 20px;
+	margin:20px 0px 0px 35px;
 }
-
 .teamsTxt {
 	font-weight: 500;
 }
-
 .userImage img {
-	//margin-left: 43px;
 	margin-top: 15px;
 	cursor: pointer;
 }
-
-
 .userName {
 	font-size: 34px;
-	margin-left: 5px;
-	/*width: 200px;*/
-	margin-top: 22px;
+	margin:22px 0px 0px 5px;
 }
-
-
 .userDate {
 
 	font-size: 13px;
 	color: hsl(210, 8%, 42%);
 	margin-top: 13px;
 }
-
 .userDate svg {
 	fill: hsl(210, 8%, 42%);
 	cursor: default;
 }
-
 .userYear {
 	gap: 5px;
 
 }
-
 .lastSeen {
 	gap: 6px;
-	//padding-left: 6px;
 }
 
 .lastSeen svg {
 	gap: 3px;
 	cursor: default;
 }
-
 .icons {
-
 	font-size: 13px;
-	//gap: 12px;
 	color: hsl(210, 8%, 42%);
 	height: 45px;
 }
-
 .userIcons {
 	gap: 5px;
 
 }
-
 .location {
 	gap: 5px;
 }
@@ -378,10 +338,7 @@ body {
 .csharpTxt {
 	cursor: pointer;
 }
-
-
 .profileButton button {
-
 	font-size: 12px;
 	width: 74.45px;
 	border: 1px solid #ddd;
@@ -389,34 +346,27 @@ body {
 	padding-left: 10px;
 	border-radius: 7px;
 }
-
 .profileButton span {
 	position: relative;
 	top: 2px;
 }
-
 .headerSecond {
-
 	font-size: 13px;
 	gap: 5px;
 }
-
 .profilesBtn {
 	font-size: 13px;
 	padding: 5px 10px;
 	height: 21px;
 	border-radius: 21px;
 	color: #ffffff;
-	margin-left: 10px;
-	margin-top: 10px;
 	background-color: hsl(27, 90%, 55%);
 	cursor: pointer;
+	margin:10px 0px 0px 10px;
 }
-
 .profilesBtn:hover {
 	background-color: hsl(27, 87%, 41%);
 }
-
 .activityBtn {
 	font-size: 13px;
 	padding: 5px 10px;
@@ -425,50 +375,39 @@ body {
 	margin-top: 10px;
 	cursor: pointer;
 }
-
 .activityBtn:hover {
 	background-color: hsl(0, 0%, 84%);
 }
-
 .secondmainLeftPart {
-
 	margin-top: 15px;
 }
-
 .statsPart h3 {
 	font-size: 21px;
 	color: #0c0d0e;
 	font-weight: 400;
 }
-
 .statsInside {
 	border-radius: 10px;
 	border: 1px solid #ddd;
 	font-size: 13px;
 	color: #636b74;
 }
-
-
 .trophyLogo svg {
 	fill: #636b74;
 }
-
 .numbers {
 	font-size: 17px;
 	color: #0c0d0e;
 }
-
 .collectivesPart {
 	margin-top: 15px;
 
 }
-
 .collectivesPart h3 {
 	font-size: 21px;
 	color: #0c0d0e;
 	font-weight: 400;
 }
-
 .collectivesPartInside {
 	border: 1px solid #ddd;
 	border-radius: 10px;
@@ -478,135 +417,97 @@ body {
 	font-size: 13px;
 	cursor: pointer;
 }
-
 .collectivesImg {
-
 	margin-left: 1px;
 }
-
 .cloudTxt {
 	margin-left: 16px;
 }
-
 .cloudDate {
 	margin-top: 5px;
 }
-
 .communitiesPart {
-
 	margin-top: 20px;
 }
-
 .communitiesPart h3 {
 	font-size: 21px;
 	color: #0c0d0e;
 	font-weight: 400;
 }
-
 .viewPart {
-
 	font-size: 13px;
 	margin-left: 55px;
-
-
 }
-
 .viewPart p {
 	cursor: pointer;
 }
-
 .viewPart p:hover {
 	color: hsl(210, 8%, 25%);
 }
-
 .viewPart svg {
-	margin-left: 4px;
-	margin-top: 5px;
 	cursor: pointer;
+	margin:5px 0px 0px 4px;
 }
-
 .viewPart svg:hover {
 	fill: hsl(210, 8%, 25%);
 }
-
 .communitiesPartInside {
-
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	padding: 10px;
 	margin-top: 12px;
-
 	font-size: 13px;
 	cursor: pointer;
 }
-
 .firstPart {
-
 	padding: 3px;
 }
-
 .txtFi {
 	margin-right: 76px;
 	color: #1B75D0;
 }
-
 .txtFi:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .txtSe {
 	margin-right: 45px;
 	color: #1B75D0;
 }
-
 .txtSe:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .txtTh {
 	margin-right: 106px;
 	color: #1B75D0;
 }
-
 .txtTh:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .txtFo {
 	margin-right: 100px;
 	color: #1B75D0;
 }
-
 .txtFo:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .txtFif {
 	margin-right: 45px;
 	color: #1B75D0;
 }
-
 .txtFif:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .num {
 	color: #636B74;
 }
-
-
 .aboutTitle {
-
 	margin-top: 17px;
-	/*margin-left: 25px;*/
 }
-
 .aboutTitle h3 {
 	font-size: 21px;
 	color: #0c0d0e;
 	font-weight: 400;
 }
-
 .authorTxt {
 	margin-top: 10px;
 	color: #3B4045;
@@ -616,80 +517,57 @@ body {
 .authorTxt a {
 	color: #1B75D0;
 }
-
 .authorTxt a:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .authorDetails {
-	/*width: 540px;*/
 	margin-top: 18px;
 	color: #3B4045;
 	font-size: 15px;
 }
-
 .sites {
 	padding-top: 20px;
 	color: #3B4045;
 	font-size: 15px;
 }
-
 .listContents {
-	margin-left: 29px;
-	margin-top: 16px;
 	color: #3B4045;
 	font-size: 15px;
+	margin:16px 0px 0px 29px;
 }
-
 .listContents a {
 	color: #1B75D0;
 }
-
 .listContents a:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .listSetSecond {
 	padding-top: 8px;
 	color: #3B4045;
-
-
 }
-
 .listSetThird {
 	padding-top: 8px;
 	color: #3B4045;
-
 }
-
 .listSetFourth {
 	padding-top: 8px;
 	color: #3B4045;
-
 }
-
 .listSetFifth {
 	padding-top: 8px;
 	color: #3B4045;
-
 }
-
 .readBtn {
-
-
 	margin-top: 14px;
 	border: 1px solid #ddd;
 	height: 18px;
-	padding-left: 7px;
 	border-radius: 5px;
-	padding-bottom: 5px;
-	padding-top: 3px;
 	cursor: pointer;
 	width: 70px;
 	height: 28px;
 	cursor: pointer;
+	padding:3px 0px 5px 7px;
 }
-
 .readTxt {
 	font-size: 11px;
 	color: #3b4045;
@@ -722,7 +600,6 @@ body {
 	border-radius:5px;
 }
 .ThirdMainRightPart {
-	
 	margin-top: 20px;
 }
 
@@ -732,39 +609,25 @@ body {
 	font-weight: 400;
 	margin-left: 25px;
 }
-
-
-
 .viewallTags {
 	font-size: 13px;
 	margin-top: 14px;
 	color: #636B74;
 	cursor: pointer;
 }
-
 .viewallTags:hover {
 	color: hsl(210, 8%, 25%);
 }
 
 .firstBox {
 	border: 1px solid #ddd;
-	
 	border-radius: 5px;
-	
 	margin-top: 13px;
-
 }
-
 .firstBoxInside {
-	
 	border-bottom: 1px solid #ddd;
-	
 	padding: 13px;
-	
 }
-
-
-
 .goldIcon {
 	border: 1px solid black;
 	width: 6px;
@@ -775,265 +638,177 @@ body {
 	border-style: none;
 	margin-left: 5px;
 }
-
-
 .firstNum {
-	
 	gap: 5px;
 }
-
 .firstNum h3 {
 	font-size: 17px;
 	color: #0C0D0E;
 	font-weight: 400;
 }
-
 .firstNumTxt {
 	font-size: 13px;
-	
 	color: #636B74;
 }
-
 .secondNum {
-	display: flex;
 	gap: 5px;
 }
-
 .secondNum h3 {
 	font-size: 17px;
 	color: #0C0D0E;
 	font-weight: 400;
 	padding-left: 11px;
 }
-
 .secondNumTxt {
 	font-size: 13px;
-	
 	color: #636B74;
 }
-
-
-
 .thirdNum h3 {
 	font-size: 17px;
 	color: #0C0D0E;
 	font-weight: 400;
 	padding-left: 7px;
 }
-
 .thirdNumTxt {
 	font-size: 13px;
-	
 	color: #636B74;
 }
-
 .cHash {
 	
 	border: 1px solid black;
 	border-radius: 5px;
-	padding-left: 6px;
-	padding-right: 4px;
-	padding-bottom: 3px;
 	border-style: none;
 	background-color: hsl(210, 80%, 96%);
 	color: hsl(210, 80%, 23%);
 	cursor: pointer;
 	font-size: 13px;
+	padding:0px 4px 3px 6px;
 }
-
 .cHash:hover {
 	background-color: hsl(210, 80%, 91%);
 }
-
 .firstBoxInsideSecond {
-	
 	border-bottom: 1px solid #ddd;
-	
 	padding: 13px;
-	
 }
-
 .java {
 	
 	border: 1px solid black;
-	padding-left: 5px;
 	font-size: 13px;
 	border-radius: 5px;
 	background-color: hsl(210, 80%, 96%);
 	color: hsl(210, 80%, 23%);
 	cursor: pointer;
 	border-style: none;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding:2px 0px 2px 5px;
 }
-
 .java:hover {
 	background-color: hsl(210, 80%, 91%);
 }
-
-
-
 .firstBoxInsideThird {
-	
 	border-bottom: 1px solid #ddd;
-	
 	padding: 13px;
-	
 }
-
 .dotnet {
-	
 	border: 1px solid black;
-	padding-left: 5px;
 	font-size: 13px;
 	border-radius: 5px;
 	background-color: hsl(210, 80%, 96%);
 	color: hsl(210, 80%, 23%);
 	cursor: pointer;
 	border-style: none;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding:2px 0px 2px 5px;
 }
-
 .dotnet:hover {
 	background-color: hsl(210, 80%, 91%);
 }
-
-
-
 .firstBoxInsideFourth {
-	
 	border-bottom: 1px solid #ddd;
-	
 	padding: 13px;
 	
 }
-
 .linq {
-	
 	border: 1px solid black;
-	padding-left: 5px;
 	font-size: 13px;
 	border-radius: 5px;
 	background-color: hsl(210, 80%, 96%);
 	color: hsl(210, 80%, 23%);
 	cursor: pointer;
 	border-style: none;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding:2px 0px 2px 5px;
 }
-
 .linq:hover {
 	background-color: hsl(210, 80%, 91%);
 }
-
-.numSectionFourth {
-	display: flex;
-
-}
-
 .firstBoxInsideFifth {
-	
 	border-bottom: 1px solid #ddd;
-	
 	padding: 13px;
 	justify-content: space-between;
 }
-
 .string {
-	
 	border: 1px solid black;
-	padding-left: 5px;
 	font-size: 13px;
 	border-radius: 5px;
 	background-color: hsl(210, 80%, 96%);
 	color: hsl(210, 80%, 23%);
 	cursor: pointer;
 	border-style: none;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding:2px 0px 2px 5px;
 }
-
 .string:hover {
 	background-color: hsl(210, 80%, 91%);
 }
-
-
-
 .firstBoxInsideSixth {
-	
 	border-bottom: 1px solid #ddd;
-	
 	padding: 13px;
 	
 }
-
 .generics {
-	
 	border: 1px solid black;
-	padding-left: 5px;
 	font-size: 13px;
 	border-radius: 5px;
 	background-color: hsl(210, 80%, 96%);
 	color: hsl(210, 80%, 23%);
 	cursor: pointer;
 	border-style: none;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding:2px 0px 2px 5px;
 }
-
 .generics:hover {
 	background-color: hsl(210, 80%, 91%);
 }
-
-.numSectionSixth {
-	display: flex;
-}
-
-
 .topPostsTxt h3 {
 	font-size: 21px;
 	color: #0c0d0e;
 	font-weight: 400;
-	
 }
-
 .viewallNxtPart {
 	font-size: 13px;
-	
 }
-
 .viewallNxtPart a {
 	text-decoration: none;
 	color: #1B75D0;
 }
-
 .viewallNxtPart a:hover {
 	color: hsl(210, 77%, 36%);
 }
-
 .boxContents {
 	margin-top: 11px;
 }
 
 .boxFirst {
-	display: flex;
 	gap: 10px;
 	font-size: 11px;
 	border: 1px solid #ddd;
 	border-radius: 5px;
-	
 	cursor: pointer;
 	height: 28px;
 }
-
 .allBox {
 	border-right: 1px solid #ddd;
 	width: 28px;
 	padding-top: 5px;
 	background-color: hsl(210, 8%, 90%);
 }
-
 .allTxt {
 	padding-left: 9px;
 }
@@ -1381,4 +1156,59 @@ body {
 .fourthMainBoxInsideLast {
 	padding: 13px;
 	
+}
+.footer {
+	margin-top: 30px;
+	/*width: 100%;
+	height: 328px;*/
+	background-color: hsl(210, 8%, 5%);
+	color:white;
+	
+.footerTitle{
+	cursor:pointer;
+}
+.queSet p{
+	cursor:pointer;
+}
+.prodSet p{
+	cursor:pointer;
+}
+.compSet p{
+	cursor:pointer;
+}
+.excSet p{
+	cursor:pointer;
+}
+.stackOverflow{
+	font-size:13px;
+}
+.footerTitle h5{
+	font-size:13px;
+}
+.stackOverflow p{
+	font-size:13px;
+}
+.stackProducts p{
+	font-size:13px;
+}
+.stackCompany{
+	font-size:13px;
+}
+.stackExchange{
+	font-size:13px;
+}
+.social p{
+	cursor:pointer;
+}
+.about{
+	
+	font-size:13px;
+}
+
+.badgeTxtt p {
+	cursor:pointer;
+	font-size:13px;
+}
+.badgeTxtt p:hover{
+	color: hsl(210, 8%, 25%);
 }

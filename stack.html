@@ -14,11 +14,11 @@
             <div class="stackLogo">
                <img class="logo d-none d-md-flex" src="./Assets/logoo.png" alt="logo">
                <div class="logoBetween d-flex justify-content-center align-items-center">
-                  <span class="material-symbols-outlined d-sm-none d-flex">menu</span>
-                  <img class="logoTwo d-sm-none d-flex justify-content-sm-start" src="./Assets/stacklogo.png" alt="image">
+                  <span class="material-symbols-outlined d-md-none d-flex">menu</span>
+                  <img class="logoTwo d-md-none d-flex justify-content-sm-start" src="./Assets/stacklogo.png" alt="image">
                </div>
             </div>
-            <div class="headerTopics d-flex align-items-center">
+            <div class="headerTopics d-flex align-items-center ">
                <div class="topics d-flex align-items-center justify-content-start d-none d-lg-flex">
                   <p>About</p>
                </div>
@@ -29,16 +29,16 @@
                   <p>For Teams</p>
                </div>
             </div>
-            <form>
-            </form>
-            <form class="searchBox d-flex  align-items-center border-0 d-sm-block">
+            <form class="searchBox d-flex  align-items-center  d-none d-sm-block ms-0">
                <div class="userBox d-flex">
                   <span class="material-symbols-outlined searchIcon">search</span>
-                  <input type="text" value="user:22656" class="d-none d-sm-flex">
-                  <!--<img class="searchIcon d-sm-none d-flex justify-content-sm-start" src="./Assets/searchIcon.png" alt="image">-->
+                  <input type="text" placeholder="user:22656" class="d-none d-sm-flex">
                </div>
             </form>
-            <div class="headerEnd d-flex flex-row justify-content-center align-items-center ">
+            <div class="d-flex d-sm-none align-items-center ">
+               <span class="material-symbols-outlined searchIcon ">search</span>
+            </div>
+            <div class="headerEnd d-flex flex-row justify-content-center align-items-center ms-1">
                <div class="login d-flex justify-content-between align-items-center">
                   <p class="loginBtn">Log in </p>
                </div>
@@ -125,10 +125,10 @@
          <div class="headermainSection d-flex flex-column">
             <div class="userInformation d-flex   flex-sm-row justify-content-between">
                <div class="users d-flex flex-column flex-lg-row">
-                  <div class="userImage">
+                  <div class="userImage ms-3">
                      <img class="userImg" src="./Assets/userImg.png" alt="image">
                   </div>
-                  <div class="userDetails d-flex flex-column">
+                  <div class="userDetails d-flex flex-column ms-2">
                      <div class="userName">
                         <p>Jon Skeet</p>
                      </div>
@@ -186,11 +186,11 @@
                </div>
             </div>
             <div class="secondmainSection d-flex flex-column flex-lg-row align-items-start justify-content-start  p-2">
-               <div class="secondmainLeftPart d-flex flex-column">
+               <div class="secondmainLeftPart d-flex flex-column ms-2">
                   <div class="statsPart">
                      <h3>Stats</h3>
                   </div>
-                  <div class="statsInside d-flex  justify-content-start flex-column flex-sm-row flex-lg-column p-2 mb-lg-3">
+                  <div class="statsInside d-flex  justify-content-start flex-column flex-sm-row flex-lg-column p-2 mb-lg-3 flex-grow">
                      <div class="statsInsidePart d-flex flex-lg-column ">
                         <div class="statsInsidePartNext d-flex justify-content-lg-between mb-lg-2">
                            <div class="statsInsideTxt px-2 px-lg-4 ">
@@ -294,10 +294,12 @@
                         </div>
                      </div>
                   </div>
-                  <div class="badges col-11 ms-2 mt-1">
-                     <div class="badgesContents d-flex justify-content-between mb-4">
+                  <div class="badges col-11 ms-3 mt-1">
+                     <div class="badgesContents d-flex justify-content-between align-items-center mb-4">
                         <p style="font-size:21px;">Badges</p>
-                        <p>View all badges</a>
+                        <div class="badgeTxtt">
+                           <p >View all badges</a>
+                        </div>
                      </div>
                      <div class="badgesContainer d-xl-flex gap-1">
                         <div class="d-sm-flex  gap-1 col">
@@ -428,10 +430,12 @@
                   </div>
                   <!--Top tags-->
                   <div class="ThirdMainRightPart d-flex flex-column col-11 ms-2 mt-2">
-                     <div class="topTagsContents d-flex justify-content-between mb-2">
+                     <div class="topTagsContents d-flex justify-content-between align-items-center mb-2">
                         <p style="font-size:21px;">Top Tags
                         </h3>
-                        <p class="viewallTagsTxt">View all tags</p>
+                        <div class="badgeTxtt">
+                           <p class="viewallTagsTxt">View all tags</p>
+                        </div>
                      </div>
                   </div>
                   <div class="firstBox col-11">
@@ -1027,5 +1031,87 @@
             </div>
          </div>
       </div>
-     </body>
+      <!--FOOTER-->
+      <div class="footer d-lg-flex justify-content-between col-12">
+         <div class="d-lg-flex  justify-content-start m-0 p-0  col-8">
+            <div class="footerIcon d-none d-md-flex  mb-4 mt-3 ms-3 col-1">
+               <svg aria-hidden="true" class="native svg-icon iconLogoGlyphMd" width="32" height="37"
+                  viewBox="0 0 32 37">
+                  <path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB"></path>
+                  <path
+                     d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z"
+                     fill="#F48024"></path>
+               </svg>
+            </div>
+            <div class="footerNav d-flex flex-column  flex-lg-row  mt-4 col-lg-10">
+               <div class="stackOverflow col-lg-3 my-2">
+                  <p class="footerTitle">STACK OVERFLOW
+                  </p>
+                  <div class="queSet d-flex gap-2 flex-lg-column p-0 m-0 flex-wrap">
+                     <p>Questions</p>
+                     <p>Help</p>
+                  </div>
+               </div>
+               <div class="stackProducts col-lg-2 my-2">
+                  <p class="footerTitle">PRODUCTS
+                  </h5>
+                  <div class=prodSet"d-flex gap-2  flex-lg-column p-0 m-0  flex-wrap">
+                     <p>Teams</p>
+                     <p>Advertising</p>
+                     <p>Collective</p>
+                     <p>Talent</p>
+                  </div>
+               </div>
+               <div class="stackCompany col-lg-2 my-2">
+                  <p class="footerTitle">COMPANY
+                  </h5>
+                  <div class="compSet d-flex gap-2  flex-lg-column p-0 m-0 flex-wrap">
+                     <p>About</p>
+                     <p>Press</p>
+                     <p>Work Here</p>
+                     <p>Legal</p>
+                     <p>Privacy policy</p>
+                     <p>Teams</p>
+                     <p>Terms of Service</p>
+                     <p>Contact Us</p>
+                     <p>Cookie Settings</p>
+                     <p>Cookie Policy</p>
+                  </div>
+               </div>
+               <div class="stackExchange col-12 col-lg-2.5 my-2">
+                  <p class="footerTitle">STACK EXCHANGE NETWORK
+                  </h5>
+                  <div class="excSet d-flex gap-2  flex-lg-column p-0 m-0 flex-wrap">
+                     <p>Technology</p>
+                     <p>Culture & recreation
+                     <p>Life & arts</p>
+                     <p>Science</p>
+                     <p>Professional</p>
+                     <p>Business</a></p>
+                     <div class="mt-lg-4">
+                        <p>API</p>
+                     </div>
+                     <p>Data</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="about flex-wrap col-lg-2.5 mt-2">
+            <div class="social d-flex gap-2 my-3 p-0 flex-wrap mb-lg-5 pb-lg-5">
+               <p>Blog</p>
+               <p>Facebook</p>
+               <p>Twitter</p>
+               <p>LinkedIn</p>
+               <p>Instagram</p>
+            </div>
+            <div class="py-lg-3 my-lg-4"></div>
+            <div class="copyright mt-lg-5 pt-lg-5">
+               <p class="mb-md-0 flex-wrap">
+                  Site design / logo © 2023 Stack Exchange Inc; user contributions licensed under 
+                  CC BY-SA rev2024.4.2.7155
+               </p>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
