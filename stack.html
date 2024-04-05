@@ -7,6 +7,12 @@
       <link rel="stylesheet" href="./Style/style.css">
       <link rel="stylesheet" href="./Style/icon.css">
       <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
+      <script>
+         function myFunction() {
+             document.getElementById("read").innerHTML = "Email: skeet@pobox.com (but please read <span class='blue-underline'>my blog post on Stack Overflow-related emails</span> first)";
+         document.getElementById("myButton").style.display = "none"; 
+         }
+      </script>
    </head>
    <body>
       <div class="mainSection d-flex justify-content-center flex-column col-12">
@@ -32,7 +38,7 @@
             <form class="searchBox d-flex  align-items-center  d-none d-sm-block ms-0">
                <div class="userBox d-flex">
                   <span class="material-symbols-outlined searchIcon">search</span>
-                  <input type="text" placeholder="user:22656" class="d-none d-sm-flex">
+                  <input type="text" value="user:22656" class="d-none d-sm-flex">
                </div>
             </form>
             <div class="d-flex d-sm-none align-items-center ">
@@ -49,7 +55,7 @@
          </div>
       </div>
       <div class="headerMain d-flex">
-         <div class="headerLeftIcons d-flex flex-column d-none d-sm-flex">
+         <div class="headerLeftIcons d-flex flex-column d-none d-sm-flex p-2">
             <div class="headerLeft d-flex flex-column">
                <div class="headerLeftFirst d-flex flex-column">
                   <div class="homeSection d-flex align-items-center justify-content-start">
@@ -132,7 +138,7 @@
                      <div class="userName">
                         <p>Jon Skeet</p>
                      </div>
-                     <div class="userDate d-flex flex-column flex-md-row">
+                     <div class="userDate d-flex flex-column flex-md-row gap-1">
                         <div class="userYear d-flex align-items-center ps-0">
                            <svg aria-hidden="true" class="svg-icon iconCake" width="18" height="18" viewBox="0 0 18 18">
                               <path d="M9 4.5a1.5 1.5 0 0 0 1.28-2.27L9 0 7.72 2.23c-.14.22-.22.48-.22.77 0 .83.68 1.5 1.5 1.5Zm3.45 7.5-.8-.81-.81.8c-.98.98-2.69.98-3.67 0l-.8-.8-.82.8c-.49.49-1.14.76-1.83.76-.55 0-1.3-.17-1.72-.46V15c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2v-2.7c-.42.28-1.17.45-1.72.45-.69 0-1.34-.27-1.83-.76Zm1.3-5H10V5H8v2H4.25C3 7 2 8 2 9.25v.9c0 .81.91 1.47 1.72 1.47.39 0 .77-.14 1.03-.42l1.61-1.6 1.6 1.6a1.5 1.5 0 0 0 2.08 0l1.6-1.6 1.6 1.6c.28.28.64.43 1.03.43.81 0 1.73-.67 1.73-1.48v-.9C16 8.01 15 7 13.75 7Z"></path>
@@ -146,7 +152,7 @@
                            <p class="seenDetails">Last seen this week</p>
                         </div>
                      </div>
-                     <div class="icons d-flex flex-column flex-md-row">
+                     <div class="icons d-flex flex-column flex-md-row gap-1">
                         <div class="userIcons d-flex flex-row align-items-center">
                            <div class="twitter">
                               <svg aria-hidden="true" class="fc-black-350 svg-icon iconTwitter" width="18" height="18" viewBox="0 0 18 18">
@@ -172,13 +178,13 @@
                      </div>
                   </div>
                </div>
-               <div class="profileButton">
+               <div class="profileButton me-3">
                   <button class="profile d-flex justify-content-center align-items-center mt-3">Profiles<span class="material-symbols-outlined">arrow_drop_down
                   </span></button>
                </div>
             </div>
             <div class="headerSecond d-flex ms-0">
-               <div class="profilesBtn d-flex justify-content-center align-items-center">
+               <div class="profilesBtn d-flex justify-content-center align-items-center p-3">
                   <p class="profTxt">Profile</p>
                </div>
                <div class="activityBtn d-flex justify-content-center align-items-center">
@@ -215,9 +221,9 @@
                      </div>
                      <div class="trophyLogo py-lg-2 d-flex flex-column px-2 px-lg-4 pt-sm-1">
                         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18">
-                           <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z"></path>
+                           <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z" style="fill:hsl(210,8%,25%);"></path>
                         </svg>
-                        <p class="numTxt mb-0">top <b>0.01%</b> overall</p>
+                        <p class="numTxtSecond mb-0">top <b>0.01%</b> overall</p>
                      </div>
                   </div>
                   <div class="collectivesPart d-none d-lg-flex">
@@ -290,15 +296,16 @@
                            </div>
                         </div>
                         <div class="readBtn d-flex flex-row align-items-center">
-                           <p class="readTxt">Read more</p>
+                           <button id="myButton" onclick="myFunction()">Read more</button>
+                           <p id="read"></p>
                         </div>
                      </div>
                   </div>
-                  <div class="badges col-11 ms-3 mt-1">
-                     <div class="badgesContents d-flex justify-content-between align-items-center mb-4">
+                  <div class="badges col-11 ms-3 mt-3">
+                     <div class="badgesContents d-flex justify-content-between align-items-center mb-4 ms-3">
                         <p style="font-size:21px;">Badges</p>
-                        <div class="badgeTxtt">
-                           <p >View all badges</a>
+                        <div class="viewallNetwork">
+                           <p class="viewallNetworkTxt">View all badges</p>
                         </div>
                      </div>
                      <div class="badgesContainer d-xl-flex gap-1">
@@ -315,7 +322,7 @@
                                  </div>
                                  <div class="ms-4">
                                     <p class="m-0"
-                                       style="font-size:1.61538462rem; font-weight:600; color:#232629;">867</p>
+                                       style="font-size:25.846px; font-weight:600; color:#232629;">867</p>
                                     <p class="m-0" style="font-size:12px;">golden badges</p>
                                  </div>
                               </div>
@@ -355,7 +362,7 @@
                                  </div>
                                  <div class="ms-4">
                                     <p class="m-0"
-                                       style="font-size:1.61538462rem; font-weight:600; color:#232629;">9,122
+                                       style="font-size:25.846px; font-weight:600; color:#232629;">9,122
                                     </p>
                                     <p class="m-0" style="font-size:12px;">silver badges</p>
                                  </div>
@@ -396,8 +403,8 @@
                                  </svg>
                               </div>
                               <div class="ms-4">
-                                 <p class="m-0" style="font-size:1.61538462rem; font-weight:600; color:#232629;">
-                                    867
+                                 <p class="m-0" style="font-size:25.846px; font-weight:600; color:#232629;">
+                                   9,256
                                  </p>
                                  <p class="m-0" style="font-size:12px;">bronze badges</p>
                               </div>
@@ -432,15 +439,15 @@
                   <div class="ThirdMainRightPart d-flex flex-column col-11 ms-2 mt-2">
                      <div class="topTagsContents d-flex justify-content-between align-items-center mb-2">
                         <p style="font-size:21px;">Top Tags
-                        </h3>
-                        <div class="badgeTxtt">
-                           <p class="viewallTagsTxt">View all tags</p>
+                        </p>
+                        <div class="viewallNetwork">
+                           <p class="viewallNetworkTxt">View all tags</p>
                         </div>
                      </div>
                   </div>
                   <div class="firstBox col-11">
                      <div class="firstBoxInside d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="items d-flex">
+                        <div class="items d-flex gap-1">
                            <div class="cHash">
                               <p class="cHashTxt">c#</p>
                            </div>
@@ -463,7 +470,7 @@
                         </div>
                      </div>
                      <div class="firstBoxInsideSecond d-flex align-items-center justify-content-between flex-wrap">
-                        <div class="items d-flex">
+                        <div class="items d-flex gap-1">
                            <div class="java">
                               <p class="javaTxt">java</p>
                            </div>
@@ -486,7 +493,7 @@
                         </div>
                      </div>
                      <div class="firstBoxInsideThird d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="items d-flex">
+                        <div class="items d-flex gap-1">
                            <div class="dotnet">
                               <p class=".netTxt">.net</p>
                            </div>
@@ -509,7 +516,7 @@
                         </div>
                      </div>
                      <div class="firstBoxInsideFourth d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="items d-flex">
+                        <div class="items d-flex gap-1">
                            <div class="linq">
                               <p class="linqTxt">linq</p>
                            </div>
@@ -532,7 +539,7 @@
                         </div>
                      </div>
                      <div class="firstBoxInsideFifth d-flex align-items-center justify-content-between flex-wrap">
-                        <div class="items d-flex">
+                        <div class="items d-flex gap-1">
                            <div class="string">
                               <p class="stringTxt">string</p>
                            </div>
@@ -555,7 +562,7 @@
                         </div>
                      </div>
                      <div class="firstBoxInsideSixth d-flex align-items-center justify-content-between flex-wrap">
-                        <div class="items d-flex">
+                        <div class="items d-flex gap-1">
                            <div class="generics">
                               <p class="genericsTxt">generics</p>
                            </div>
@@ -588,8 +595,8 @@
                            <p class="viewallNxtPartTxt">View all <a href="#">questions, answers,</a> and <a href="#">articles</a></p>
                         </div>
                      </div>
-                     <div class="boxContents d-flex align-items-center">
-                        <div class="boxFirst d-flex">
+                     <div class="boxContents d-flex align-items-center ms-0 gap-1">
+                        <div class="boxFirst d-flex gap-1">
                            <div class="allBox">
                               <p class="allTxt">All</p>
                            </div>
@@ -615,8 +622,8 @@
                   </div>
                   <div class="secondMainBox col-11 mt-2">
                      <div class="secondMainBoxInside d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -633,8 +640,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideSecond d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -651,8 +658,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideThird d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabetSec.png" alt="image">
                               </div>
@@ -669,8 +676,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideFourth d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -687,8 +694,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideFifth d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -705,8 +712,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideSixth d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/quesAlp.png" alt="image">
                               </div>
@@ -715,7 +722,7 @@
                               </div>
                            </div>
                            <div class="sentence">
-                              <p class="sentenceTxt">What are the correct version numbers for C#?</p>
+                              <p class="sentenceTxtt">What are the correct version numbers for C#?</p>
                            </div>
                         </div>
                         <div class="yearSet">
@@ -723,8 +730,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideSeventh d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet d-flex align-items-center">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -741,8 +748,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideEight d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -759,8 +766,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideNine d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -777,8 +784,8 @@
                         </div>
                      </div>
                      <div class="secondMainBoxInsideTen d-flex justify-content-between align-items-center">
-                        <div class="itemsSet d-flex">
-                           <div class="alphNum d-flex align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
                               <div class="alphabetSet">
                                  <img class="alphabet" src="./Assets/alphabet.png" alt="image">
                               </div>
@@ -1033,8 +1040,8 @@
       </div>
       <!--FOOTER-->
       <div class="footer d-lg-flex justify-content-between col-12">
-         <div class="d-lg-flex  justify-content-start m-0 p-0  col-8">
-            <div class="footerIcon d-none d-md-flex  mb-4 mt-3 ms-3 col-1">
+         <div class="d-lg-flex  justify-content-start m-0 p-0  col-md-8 col-sm-12">
+            <div class="footerIcon d-none d-md-flex  mb-4 mt-3 ms-3 col-1 ps-4">
                <svg aria-hidden="true" class="native svg-icon iconLogoGlyphMd" width="32" height="37"
                   viewBox="0 0 32 37">
                   <path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB"></path>
@@ -1043,19 +1050,19 @@
                      fill="#F48024"></path>
                </svg>
             </div>
-            <div class="footerNav d-flex flex-column  flex-lg-row  mt-4 col-lg-10">
+            <div class="footerNav d-flex flex-column  flex-lg-row  mt-4 col-lg-10 ms-2">
                <div class="stackOverflow col-lg-3 my-2">
-                  <p class="footerTitle">STACK OVERFLOW
-                  </p>
+                  <h6 class="footerTitle">STACK OVERFLOW
+                  </h6>
                   <div class="queSet d-flex gap-2 flex-lg-column p-0 m-0 flex-wrap">
                      <p>Questions</p>
                      <p>Help</p>
                   </div>
                </div>
                <div class="stackProducts col-lg-2 my-2">
-                  <p class="footerTitle">PRODUCTS
-                  </h5>
-                  <div class=prodSet"d-flex gap-2  flex-lg-column p-0 m-0  flex-wrap">
+                  <h6 class="footerTitle">PRODUCTS
+                  </h6>
+                  <div class="prodSet d-flex gap-2  flex-lg-column p-0 m-0  flex-wrap">
                      <p>Teams</p>
                      <p>Advertising</p>
                      <p>Collective</p>
@@ -1063,8 +1070,8 @@
                   </div>
                </div>
                <div class="stackCompany col-lg-2 my-2">
-                  <p class="footerTitle">COMPANY
-                  </h5>
+                  <h6 class="footerTitle">COMPANY
+                  </h6>
                   <div class="compSet d-flex gap-2  flex-lg-column p-0 m-0 flex-wrap">
                      <p>About</p>
                      <p>Press</p>
@@ -1079,15 +1086,15 @@
                   </div>
                </div>
                <div class="stackExchange col-12 col-lg-2.5 my-2">
-                  <p class="footerTitle">STACK EXCHANGE NETWORK
-                  </h5>
+                  <h6 class="footerTitle">STACK EXCHANGE NETWORK
+                  </h6>
                   <div class="excSet d-flex gap-2  flex-lg-column p-0 m-0 flex-wrap">
                      <p>Technology</p>
                      <p>Culture & recreation
                      <p>Life & arts</p>
                      <p>Science</p>
                      <p>Professional</p>
-                     <p>Business</a></p>
+                     <p>Business</p>
                      <div class="mt-lg-4">
                         <p>API</p>
                      </div>
@@ -1096,7 +1103,7 @@
                </div>
             </div>
          </div>
-         <div class="about flex-wrap col-lg-2.5 mt-2">
+         <div class="about flex-wrap col-lg-2.5 mt-2 ms-2">
             <div class="social d-flex gap-2 my-3 p-0 flex-wrap mb-lg-5 pb-lg-5">
                <p>Blog</p>
                <p>Facebook</p>
@@ -1106,9 +1113,9 @@
             </div>
             <div class="py-lg-3 my-lg-4"></div>
             <div class="copyright mt-lg-5 pt-lg-5">
-               <p class="mb-md-0 flex-wrap">
+               <p class="lastTxt mb-md-0 flex-wrap">
                   Site design / logo © 2023 Stack Exchange Inc; user contributions licensed under 
-                  CC BY-SA rev2024.4.2.7155
+                  <a href="#">CC BY-SA</a>. rev 2024.2.21.5177
                </p>
             </div>
          </div>
