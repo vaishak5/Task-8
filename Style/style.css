@@ -8,9 +8,6 @@ body {
 	box-sizing: border-box;
 	font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	width:100%;
-	overflow-x:hidden;
-
 }
 .mainSection {
 	width: 100%;
@@ -22,11 +19,12 @@ body {
 }
 
 .stackLogo {
-	padding:11px 7px 0px 0px;
+	/*padding:11px 7px 0px 0px;*/
 	cursor: pointer;
+	padding:15px 0px 15px 0px;
 }
 .stackLogo:hover {
-	background-color: hsl(210, 8%, 85%);
+	background-color: hsl(210, 8%, 90%);
 	border-radius: 5px;
 }
 .logo {
@@ -124,7 +122,7 @@ body {
 	border-bottom: 2px solid #ddd;
 }
 .headerLeftFirst {
-	margin:21px 0px 0px 39px;
+	/*margin:21px 0px 0px 39px;*/
 	font-size: 13px;
 	gap: 14px;
 }
@@ -180,7 +178,7 @@ body {
 	overflow:scroll;
 }
 .headerLeftSecond {
-	margin-left: 35px;
+	/*margin-left: 35px;*/
 	font-size: 13px;
 	margin-top: 28px;
 	gap: 11px;
@@ -216,7 +214,7 @@ body {
 .headerLeftThird {
 	font-size: 13px;
 	gap: 17px;
-	margin:25px 0px 0px 35px;
+	/*margin:25px 0px 0px 35px;*/
 }
 .labsSection {
 	gap: 86px;
@@ -249,7 +247,7 @@ body {
 .headerLeftFourth {
 	font-size: 13px;
 	gap: 15px;
-	margin:27px 0px 0px 35px;
+	/*margin:27px 0px 0px 35px;*/
 }
 .collectivesSection {
 	gap: 38px;
@@ -281,7 +279,7 @@ body {
 }
 .headerLeftFifth {
 	font-size: 13px;
-	margin:20px 0px 0px 35px;
+	/*margin:20px 0px 0px 35px;*/
 }
 .teamsTxt {
 	font-weight: 500;
@@ -447,7 +445,7 @@ body {
 }
 .viewPart {
 	font-size: 13px;
-	margin-left: 55px;
+	margin-left: 23px;
 }
 .viewPart p {
 	cursor: pointer;
@@ -465,7 +463,7 @@ body {
 .communitiesPartInside {
 	border: 1px solid #ddd;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 2px;
 	margin-top: 12px;
 	font-size: 13px;
 	cursor: pointer;
@@ -474,35 +472,35 @@ body {
 	padding: 3px;
 }
 .txtFi {
-	margin-right: 76px;
+	margin-right: 59px;
 	color: #1B75D0;
 }
 .txtFi:hover {
 	color: hsl(210, 77%, 36%);
 }
 .txtSe {
-	margin-right: 45px;
+	margin-right: 28px;
 	color: #1B75D0;
 }
 .txtSe:hover {
 	color: hsl(210, 77%, 36%);
 }
 .txtTh {
-	margin-right: 106px;
+	margin-right: 88px;
 	color: #1B75D0;
 }
 .txtTh:hover {
 	color: hsl(210, 77%, 36%);
 }
 .txtFo {
-	margin-right: 100px;
+	margin-right: 83px;
 	color: #1B75D0;
 }
 .txtFo:hover {
 	color: hsl(210, 77%, 36%);
 }
 .txtFif {
-	margin-right: 45px;
+	margin-right: 27px;
 	color: #1B75D0;
 }
 .txtFif:hover {
@@ -615,6 +613,7 @@ body {
 }
 .numTxtSecond{
 	cursor:pointer;
+	margin-top:6px;
 }
 .topTagsTxt h3 {
 	font-size: 21px;
@@ -669,7 +668,7 @@ body {
 	font-size: 17px;
 	color: #0C0D0E;
 	font-weight: 400;
-	padding-left: 11px;
+	padding-left: 10px;
 }
 .secondNumTxt {
 	font-size: 13px;
@@ -841,7 +840,7 @@ body {
 	border: 1px solid #ddd;
 	border-radius: 5px;
 	height: 28px;
-	margin-left: 11px;
+	/*margin-left: 11px;*/
 	cursor: pointer;
 }
 .scoreBox {
@@ -1007,7 +1006,7 @@ body {
 	padding: 13px;
 }
 .topNetworkTxt h3 {
-	font-size: 20px;
+	font-size: 19px;
 	color: #0c0d0e;
 	font-weight: 400;
 }

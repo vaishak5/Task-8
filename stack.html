@@ -16,7 +16,7 @@
    </head>
    <body>
       <div class="mainSection d-flex justify-content-center flex-column col-12">
-         <div class="header d-flex justify-content-evenly col-12">
+         <div class="header d-flex justify-content-evenly col-12 align-items-center">
             <div class="stackLogo">
                <img class="logo d-none d-md-flex" src="./Assets/logoo.png" alt="logo">
                <div class="logoBetween d-flex justify-content-center align-items-center">
@@ -48,15 +48,15 @@
                <div class="login d-flex justify-content-between align-items-center">
                   <p class="loginBtn">Log in </p>
                </div>
-               <div class="signup d-flex justify-content-center align-items-center">
+               <div class="signup d-flex justify-content-center align-items-center me-3">
                   <p class="signupBtn"> Sign up </p>
                </div>
             </div>
          </div>
       </div>
       <div class="headerMain d-flex">
-         <div class="headerLeftIcons d-flex flex-column d-none d-sm-flex p-2">
-            <div class="headerLeft d-flex flex-column">
+         <div class="headerLeftIcons d-flex flex-column d-none d-sm-flex p-2 ms-3 col-lg-2 col-sm-3">
+            <div class="headerLeft d-flex flex-column gap-2">
                <div class="headerLeftFirst d-flex flex-column">
                   <div class="homeSection d-flex align-items-center justify-content-start">
                      <svg aria-hidden="true" class="svg-icon iconHome" width="18" height="18" viewBox="0 0 18 18">
@@ -94,7 +94,7 @@
                   </div>
                </div>
                <div class="headerLeftThird d-flex flex-column">
-                  <div class="labsSection d-flex flex-row align-items-center justify-content-start">
+                  <div class="labsSection d-flex flex-row align-items-center justify-content-between">
                      <p class="labsTxt">LABS</p>
                      <svg aria-hidden="true" class="svg-icon iconInfoSm" width="14" height="14" viewBox="0 0 14 14">
                         <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z"></path>
@@ -108,7 +108,7 @@
                   </div>
                </div>
                <div class="headerLeftFourth d-flex flex-column">
-                  <div class="collectivesSection d-flex flex-row align-items-center justify-content-start">
+                  <div class="collectivesSection d-flex flex-row align-items-center justify-content-between">
                      <p class="collectivesTxt">COLLECTIVES</p>
                      <svg aria-hidden="true" class="svg-icon iconPlusSm" width="14" height="14" viewBox="0 0 14 14">
                         <path d="M8 2H6v4H2v2h4v4h2V8h4V6H8V2Z"></path>
@@ -128,7 +128,7 @@
                </div>
             </div>
          </div>
-         <div class="headermainSection d-flex flex-column">
+         <div class="headermainSection d-flex flex-column ">
             <div class="userInformation d-flex   flex-sm-row justify-content-between">
                <div class="users d-flex flex-column flex-lg-row">
                   <div class="userImage ms-3">
@@ -191,14 +191,14 @@
                   <p class="activityTxt">Activity</p>
                </div>
             </div>
-            <div class="secondmainSection d-flex flex-column flex-lg-row align-items-start justify-content-start  p-2">
-               <div class="secondmainLeftPart d-flex flex-column ms-2">
+            <div class="secondmainSection d-flex flex-column flex-lg-row align-items-start justify-content-start ms-1">
+               <div class="secondmainLeftPart d-flex flex-column ms-1 col-12 col-lg-3">
                   <div class="statsPart">
                      <h3>Stats</h3>
                   </div>
-                  <div class="statsInside d-flex  justify-content-start flex-column flex-sm-row flex-lg-column p-2 mb-lg-3 flex-grow">
-                     <div class="statsInsidePart d-flex flex-lg-column ">
-                        <div class="statsInsidePartNext d-flex justify-content-lg-between mb-lg-2">
+                  <div class="statsInside d-flex  justify-content-between flex-xs-column  flex-lg-column  mb-lg-3 flex-wrap ">
+                     <div class="statsInsidePart d-flex flex-lg-column gap-lg-0 gap-md-5">
+                        <div class="statsInsidePartNext d-flex justify-content-lg-between mb-lg-2 gap-lg-0 gap-md-4">
                            <div class="statsInsideTxt px-2 px-lg-4 ">
                               <p class="numbers mb-0">1,449,393</p>
                               <p class="mb-0">reputation</p>
@@ -208,7 +208,7 @@
                               <p class="mb-0">reached</p>
                            </div>
                         </div>
-                        <div class="statsInsideNxt d-flex justify-content-lg-between mb-lg-2 ">
+                        <div class="statsInsideNxt d-flex justify-content-lg-between mb-lg-2 gap-lg-0 gap-md-4">
                            <div class="statsInsideTxt px-2 px-lg-4">
                               <p class="numbers mb-0">35,687</p>
                               <p class="mb-0">answers</p>
@@ -219,7 +219,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="trophyLogo py-lg-2 d-flex flex-column px-2 px-lg-4 pt-sm-1">
+                     <div class="trophyLogo d-flex flex-column px-2 px-lg-4 pt-sm-1">
                         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18">
                            <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z" style="fill:hsl(210,8%,25%);"></path>
                         </svg>
@@ -238,7 +238,7 @@
                         <p class="cloudDate">2021 . Member</p>
                      </div>
                   </div>
-                  <div class="communitiesPart d-flex d-none d-lg-flex">
+                  <div class="communitiesPart d-flex d-none d-lg-flex align-items-center">
                      <h3>Communities</h3>
                      <div class="viewPart d-flex align-items center">
                         <p class="viewTxt">View all</p>
@@ -404,7 +404,7 @@
                               </div>
                               <div class="ms-4">
                                  <p class="m-0" style="font-size:25.846px; font-weight:600; color:#232629;">
-                                   9,256
+                                    9,256
                                  </p>
                                  <p class="m-0" style="font-size:12px;">bronze badges</p>
                               </div>
@@ -463,7 +463,7 @@
                               <h3 class="mb-0">19,990</h3>
                               <p class="secondNumTxt">posts</p>
                            </div>
-                           <div class="thirdNum d-flex align-items-center">
+                           <div class="thirdNum d-flex align-items-center ">
                               <h3 class="mb-0">56</h3>
                               <p class="thirdNumTxt">posts %</p>
                            </div>
@@ -486,7 +486,7 @@
                               <h3 class="mb-0">10,593</h3>
                               <p class="secondNumTxt">posts</p>
                            </div>
-                           <div class="thirdNum d-flex align-items-center">
+                           <div class="thirdNum d-flex align-items-center ">
                               <h3 class="mb-0">30</h3>
                               <p class="thirdNumTxt">posts %</p>
                            </div>
@@ -509,7 +509,7 @@
                               <h3 class="mb-0">5,651</h3>
                               <p class="secondNumTxt">posts</p>
                            </div>
-                           <div class="thirdNum d-flex align-items-center">
+                           <div class="thirdNum d-flex align-items-center ">
                               <h3 class="mb-0">16</h3>
                               <p class="thirdNumTxt">posts %</p>
                            </div>
@@ -532,7 +532,7 @@
                               <h3 class="mb-0">3,004</h3>
                               <p class="secondNumTxt">posts</p>
                            </div>
-                           <div class="thirdNum d-flex align-items-center">
+                           <div class="thirdNum d-flex align-items-center ">
                               <h3 class="mb-0">8</h3>
                               <p class="thirdNumTxt">posts %</p>
                            </div>
@@ -555,7 +555,7 @@
                               <h3 class="mb-0">1,014</h3>
                               <p class="secondNumTxt">posts</p>
                            </div>
-                           <div class="thirdNum d-flex align-items-center">
+                           <div class="thirdNum d-flex align-items-center ">
                               <h3 class="mb-0">3</h3>
                               <p class="thirdNumTxt">posts %</p>
                            </div>
@@ -578,7 +578,7 @@
                               <h3 class="mb-0">1,291</h3>
                               <p class="secondNumTxt">posts</p>
                            </div>
-                           <div class="thirdNum d-flex align-items-center">
+                           <div class="thirdNum d-flex align-items-center ">
                               <h3 class="mb-0">4</h3>
                               <p class="thirdNumTxt">posts %</p>
                            </div>
@@ -1039,8 +1039,8 @@
          </div>
       </div>
       <!--FOOTER-->
-      <div class="footer d-lg-flex justify-content-between col-12">
-         <div class="d-lg-flex  justify-content-start m-0 p-0  col-md-8 col-sm-12">
+      <div class="footer d-lg-flex justify-content-between col-12 mt-1">
+         <div class="d-lg-flex  justify-content-start m-0 p-0  col-md-8 col-sm-12 gap-2">
             <div class="footerIcon d-none d-md-flex  mb-4 mt-3 ms-3 col-1 ps-4">
                <svg aria-hidden="true" class="native svg-icon iconLogoGlyphMd" width="32" height="37"
                   viewBox="0 0 32 37">
@@ -1085,7 +1085,7 @@
                      <p>Cookie Policy</p>
                   </div>
                </div>
-               <div class="stackExchange col-12 col-lg-2.5 my-2">
+               <div class="stackExchange col-12 col-lg-2.5 my-2 ps-lg-4">
                   <h6 class="footerTitle">STACK EXCHANGE NETWORK
                   </h6>
                   <div class="excSet d-flex gap-2  flex-lg-column p-0 m-0 flex-wrap">
