@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>StackOverflow Responsive</title>
+      <link rel="stylesheet" href="./Style/style.css">
+      <link rel="stylesheet" href="./Style/icon.css">
+      <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
+      <script>
+         function myFunction() {
+             document.getElementById("read").innerHTML = "Email: skeet@pobox.com (but please read <span class='blue-underline'>my blog post on Stack Overflow-related emails</span> first)";
+         document.getElementById("myButton").style.display = "none"; 
+         }
+      </script>
+   </head>
+   <body>
+      <div class="mainSection d-flex justify-content-center flex-column col-12">
+         <div class="header d-flex justify-content-evenly col-12 align-items-center">
+            <div class="stackLogo">
+               <img class="logo d-none d-md-flex" src="./Assets/logoo.png" alt="logo">
+               <div class="logoBetween d-flex justify-content-center align-items-center">
+                  <span class="material-symbols-outlined d-md-none d-flex">menu</span>
+                  <img class="logoTwo d-md-none d-flex justify-content-sm-start" src="./Assets/stacklogo.png" alt="image">
+               </div>
+            </div>
+            <div class="headerTopics d-flex align-items-center ">
+               <div class="topics d-flex align-items-center justify-content-start d-none d-lg-flex">
+                  <p>About</p>
+               </div>
+               <div class="topics">
+                  <p>Products</p>
+               </div>
+               <div class="topicsSecond d-flex align-items-center justify-content-start d-none d-lg-flex">
+                  <p>For Teams</p>
+               </div>
+            </div>
+            <form class="searchBox d-flex  align-items-center  d-none d-sm-block ms-0">
+               <div class="userBox d-flex">
+                  <span class="material-symbols-outlined searchIcon">search</span>
+                  <input type="text" value="user:22656" class="d-none d-sm-flex">
+               </div>
+            </form>
+            <div class="d-flex d-sm-none align-items-center ">
+               <span class="material-symbols-outlined searchIcon ">search</span>
+            </div>
+            <div class="headerEnd d-flex flex-row justify-content-center align-items-center ms-1">
+               <div class="login d-flex justify-content-between align-items-center">
+                  <p class="loginBtn">Log in </p>
+               </div>
+               <div class="signup d-flex justify-content-center align-items-center me-3">
+                  <p class="signupBtn"> Sign up </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="headerMain d-flex">
+         <div class="headerLeftIcons d-flex flex-column d-none d-sm-flex p-2 ms-3 col-lg-2 col-sm-3">
+            <div class="headerLeft d-flex flex-column gap-2">
+               <div class="headerLeftFirst d-flex flex-column">
+                  <div class="homeSection d-flex align-items-center justify-content-start">
+                     <svg aria-hidden="true" class="svg-icon iconHome" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M15 10v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5H0l9-9 9 9h-3Zm-8 1v6h4v-6H7Z">
+                        </path>
+                     </svg>
+                     <p class="homeTxt">Home</p>
+                  </div>
+                  <div class="questionSection d-flex align-items-center justify-content-start">
+                     <svg aria-hidden="true" class="svg-icon iconQuestion" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="m4 15-3 3V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z"></path>
+                     </svg>
+                     <p class="questionTxt">Questions</p>
+                  </div>
+                  <div class="tagsSection d-flex align-items-center justify-content-start">
+                     <svg aria-hidden="true" class="svg-icon iconTags" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M9.24 1a3 3 0 0 0-2.12.88l-5.7 5.7a2 2 0 0 0-.38 2.31 3 3 0 0 1 .67-1.01l6-6A3 3 0 0 1 9.83 2H14a3 3 0 0 1 .79.1A2 2 0 0 0 13 1H9.24Z" opacity=".4"></path>
+                        <path d="M9.83 3a2 2 0 0 0-1.42.59l-6 6a2 2 0 0 0 0 2.82L6.6 16.6a2 2 0 0 0 2.82 0l6-6A2 2 0 0 0 16 9.17V5a2 2 0 0 0-2-2H9.83ZM12 9a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"></path>
+                     </svg>
+                     <p class="tagsTxt">Tags</p>
+                  </div>
+               </div>
+               <div class="headerLeftSecond d-flex flex-column">
+                  <div class="usersSection d-flex flex-row align-items-center justify-content-start">
+                     <svg aria-hidden="true" class="svg-icon iconPeople" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M17 14c0 .44-.45 1-1 1H9a1 1 0 0 1-1-1H2c-.54 0-1-.56-1-1 0-2.63 3-4 3-4s.23-.4 0-1c-.84-.62-1.06-.59-1-3 .06-2.42 1.37-3 2.5-3s2.44.58 2.5 3c.06 2.41-.16 2.38-1 3-.23.59 0 1 0 1s1.55.71 2.42 2.09c.78-.72 1.58-1.1 1.58-1.1s.23-.4 0-1c-.84-.61-1.06-.58-1-3 .06-2.41 1.37-3 2.5-3s2.44.59 2.5 3c.05 2.42-.16 2.39-1 3-.23.6 0 1 0 1s3 1.38 3 4Z"></path>
+                     </svg>
+                     <p class="usersTxt"><b>Users</b></p>
+                  </div>
+                  <div class="companiesSection d-flex flex-row align-items-center justify-content-start">
+                     <svg aria-hidden="true" class="svg-icon iconBriefcase" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M5 4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v1h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h1V4Zm7 0H6v1h6V4Z"></path>
+                     </svg>
+                     <p class="companiesTxt">Companies</p>
+                  </div>
+               </div>
+               <div class="headerLeftThird d-flex flex-column">
+                  <div class="labsSection d-flex flex-row align-items-center justify-content-between">
+                     <p class="labsTxt">LABS</p>
+                     <svg aria-hidden="true" class="svg-icon iconInfoSm" width="14" height="14" viewBox="0 0 14 14">
+                        <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z"></path>
+                     </svg>
+                  </div>
+                  <div class="discussionsSection d-flex flex-row align-items-center justify-content-start">
+                     <svg aria-hidden="true" class="fc-black-400 w16 svg-icon iconSpeechBubble" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="m4 15-3 3V4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4Z"></path>
+                     </svg>
+                     <p class="discussionsTxt">Discussions</p>
+                  </div>
+               </div>
+               <div class="headerLeftFourth d-flex flex-column">
+                  <div class="collectivesSection d-flex flex-row align-items-center justify-content-between">
+                     <p class="collectivesTxt">COLLECTIVES</p>
+                     <svg aria-hidden="true" class="svg-icon iconPlusSm" width="14" height="14" viewBox="0 0 14 14">
+                        <path d="M8 2H6v4H2v2h4v4h2V8h4V6H8V2Z"></path>
+                     </svg>
+                  </div>
+                  <div class="exploreSection d-flex flex-row align-items-center justify-content-start">
+                     <svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarVerified" width="18" height="18" viewBox="0 0 18 18">
+                        <path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 							1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z"></path>
+                     </svg>
+                     <p class="exploreTxt">Explore Collectives</p>
+                  </div>
+               </div>
+               <div class="headerLeftFifth d-flex flex-column">
+                  <div class="teamsSection">
+                     <p class="teamsTxt">TEAMS</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="headermainSection d-flex flex-column ">
+            <div class="userInformation d-flex   flex-sm-row justify-content-between">
+               <div class="users d-flex flex-column flex-lg-row">
+                  <div class="userImage ms-3">
+                     <img class="userImg" src="./Assets/userImg.png" alt="image">
+                  </div>
+                  <div class="userDetails d-flex flex-column ms-2">
+                     <div class="userName">
+                        <p>Jon Skeet</p>
+                     </div>
+                     <div class="userDate d-flex flex-column flex-md-row gap-1">
+                        <div class="userYear d-flex align-items-center ps-0">
+                           <svg aria-hidden="true" class="svg-icon iconCake" width="18" height="18" viewBox="0 0 18 18">
+                              <path d="M9 4.5a1.5 1.5 0 0 0 1.28-2.27L9 0 7.72 2.23c-.14.22-.22.48-.22.77 0 .83.68 1.5 1.5 1.5Zm3.45 7.5-.8-.81-.81.8c-.98.98-2.69.98-3.67 0l-.8-.8-.82.8c-.49.49-1.14.76-1.83.76-.55 0-1.3-.17-1.72-.46V15c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2v-2.7c-.42.28-1.17.45-1.72.45-.69 0-1.34-.27-1.83-.76Zm1.3-5H10V5H8v2H4.25C3 7 2 8 2 9.25v.9c0 .81.91 1.47 1.72 1.47.39 0 .77-.14 1.03-.42l1.61-1.6 1.6 1.6a1.5 1.5 0 0 0 2.08 0l1.6-1.6 1.6 1.6c.28.28.64.43 1.03.43.81 0 1.73-.67 1.73-1.48v-.9C16 8.01 15 7 13.75 7Z"></path>
+                           </svg>
+                           <p class="memberDetails">Member for 15 years, 5 months</p>
+                        </div>
+                        <div class="lastSeen d-flex align-items-center">
+                           <svg aria-hidden="true" class="svg-icon iconClock ps-0" width="18" height="18" viewBox="0 0 18 18">
+                              <path d="M9 17c-4.36 0-8-3.64-8-8 0-4.36 3.64-8 8-8 4.36 0 8 3.64 8 8 0 4.36-3.64 8-8 8Zm0-2c3.27 0 6-2.73 6-6s-2.73-6-6-6-6 2.73-6 6 2.73 6 6 6ZM8 5h1.01L9 9.36l3.22 2.1-.6.93L8 10V5Z"></path>
+                           </svg>
+                           <p class="seenDetails">Last seen this week</p>
+                        </div>
+                     </div>
+                     <div class="icons d-flex flex-column flex-md-row gap-1">
+                        <div class="userIcons d-flex flex-row align-items-center">
+                           <div class="twitter">
+                              <svg aria-hidden="true" class="fc-black-350 svg-icon iconTwitter" width="18" height="18" viewBox="0 0 18 18">
+                                 <path fill="hsl(210,8%,42%)" d="M17 4.04c-.59.26-1.22.44-1.88.52a3.3 3.3 0 0 0 1.44-1.82c-.64.37-1.34.64-2.09.79a3.28 3.28 0 0 0-5.6 2.99A9.3 9.3 0 0 1 2.12 3.1a3.28 3.28 0 0 0 1.02 4.38 3.28 3.28 0 0 1-1.49-.4v.03a3.29 3.29 0 0 0 2.64 3.22 3.34 3.34 0 0 1-1.48.06 3.29 3.29 0 0 0 3.07 2.28 6.58 6.58 0 0 1-4.85 1.36 9.33 9.33 0 0 0 5.04 1.47c6.04 0 9.34-5 9.34-9.33v-.42a6.63 6.63 0 0 0 1.63-1.7L17 4.04Z"></path>
+                              </svg>
+                           </div>
+                           <div class="github">
+                              <svg aria-hidden="true" class="fc-black-350 svg-icon iconGitHub" width="18" height="18" viewBox="0 0 18 18">
+                                 <path fill="hsl(210,8%,42%)" d="M9 1a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 9 1Z"></path>
+                              </svg>
+                           </div>
+                           <svg aria-hidden="true" class="svg-icon iconLink" width="18" height="18" viewBox="0 0 18 18">
+                              <path d="M7.22 11.83a6 6 0 0 0 1.62.85l.61-1.8a4.1 4.1 0 1 1 4.04-.8l1.26 1.42a6 6 0 1 0-7.53.33Zm3.43-5.6a6 6 0 0 0-1.6-.87L8.4 7.15a4.1 4.1 0 1 1-4.05.73L3.12 6.43a6 6 0 1 0 7.53-.2Z"></path>
+                           </svg>
+                           <p class="csharpTxt">csharpindepth.com</p>
+                        </div>
+                        <div class="location d-flex align-items-center">
+                           <svg aria-hidden="true" class="mrn2 svg-icon iconLocation" width="17" height="18" viewBox="0 0 17 18">
+                              <path d="M2 6.38C2 9.91 8.1 17.7 8.1 17.7c.22.29.58.29.8 0 0 0 6.1-7.8 6.1-11.32A6.44 6.44 0 0 0 8.5 0 6.44 6.44 0 0 0 2 6.38Zm9.25.12a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0Z"></path>
+                           </svg>
+                           <p class="locationTxt">Reading, United Kingdom</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="profileButton me-3">
+                  <button class="profile d-flex justify-content-center align-items-center mt-3">Profiles<span class="material-symbols-outlined">arrow_drop_down
+                  </span></button>
+               </div>
+            </div>
+            <div class="headerSecond d-flex ms-0">
+               <div class="profilesBtn d-flex justify-content-center align-items-center p-3">
+                  <p class="profTxt">Profile</p>
+               </div>
+               <div class="activityBtn d-flex justify-content-center align-items-center">
+                  <p class="activityTxt">Activity</p>
+               </div>
+            </div>
+            <div class="secondmainSection d-flex flex-column flex-lg-row align-items-start justify-content-start ms-1">
+               <div class="secondmainLeftPart d-flex flex-column ms-1 col-12 col-lg-3">
+                  <div class="statsPart">
+                     <h3>Stats</h3>
+                  </div>
+                  <div class="statsInside d-flex  justify-content-between flex-xs-column  flex-lg-column  mb-lg-3 flex-wrap ">
+                     <div class="statsInsidePart d-flex flex-lg-column gap-lg-0 gap-md-5">
+                        <div class="statsInsidePartNext d-flex justify-content-lg-between mb-lg-2 gap-lg-0 gap-md-4">
+                           <div class="statsInsideTxt px-2 px-lg-4 ">
+                              <p class="numbers mb-0">1,449,393</p>
+                              <p class="mb-0">reputation</p>
+                           </div>
+                           <div class="statsInsideSecondTxt px-2 px-lg-4">
+                              <p class="numbers mb-0">401.9m</p>
+                              <p class="mb-0">reached</p>
+                           </div>
+                        </div>
+                        <div class="statsInsideNxt d-flex justify-content-lg-between mb-lg-2 gap-lg-0 gap-md-4">
+                           <div class="statsInsideTxt px-2 px-lg-4">
+                              <p class="numbers mb-0">35,687</p>
+                              <p class="mb-0">answers</p>
+                           </div>
+                           <div class="statsInsideSecondTxt px-2 px-lg-4">
+                              <p class="numbers mb-0" style="padding-left:10px;">55</p>
+                              <p class="mb-0" style="padding-left:5px;">questions</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="trophyLogo d-flex flex-column px-2 px-lg-4 pt-sm-1">
+                        <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18">
+                           <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z" style="fill:hsl(210,8%,25%);"></path>
+                        </svg>
+                        <p class="numTxtSecond mb-0">top <b>0.01%</b> overall</p>
+                     </div>
+                  </div>
+                  <div class="collectivesPart d-none d-lg-flex">
+                     <h3>Collectives</h3>
+                  </div>
+                  <div class="collectivesPartInside d-none d-lg-flex align-items-start">
+                     <div class="collectivesImg d-flex align-items-center justify-content-start">
+                        <img class="cloud" src="./Assets/cloudImg.png" alt="img">
+                     </div>
+                     <div class="cloudTxt d-flex flex-column justify-content-center align-items-start">
+                        <p class="cloudTxtFt">Google Cloud</p>
+                        <p class="cloudDate">2021 . Member</p>
+                     </div>
+                  </div>
+                  <div class="communitiesPart d-flex d-none d-lg-flex align-items-center">
+                     <h3>Communities</h3>
+                     <div class="viewPart d-flex align-items center">
+                        <p class="viewTxt">View all</p>
+                        <svg aria-hidden="true" class="svg-icon iconShareSm" width="14" height="14" viewBox="0 0 14 14">
+                           <path d="M5 1H3a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V9h-2v2H3V3h2V1Zm2 0h6v6h-2V4.5L6.5 9 5 7.5 9.5 3H7V1Z"></path>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="communitiesPartInside d-flex flex-column d-none d-lg-flex">
+                     <div class="firstPart d-flex align-items-center justify-content-between">
+                        <img class="logos" src="./Assets/stack.png" alt="image">
+                        <p class="txtFi">Stack Overflow</p>
+                        <p class="num">1.4m</p>
+                     </div>
+                     <div class="firstPart d-flex align-items-center justify-content-between">
+                        <img class="logos" src="./Assets/meta.png" alt="image">
+                        <p class="txtSe">MetaStack Exchange</p>
+                        <p class="num">93.7k</p>
+                     </div>
+                     <div class="firstPart d-flex align-items-center justify-content-between">
+                        <img class="logos" src="./Assets/super.png" alt="img">
+                        <p class="txtTh">Super User</p>
+                        <p class="num">5.1k</p>
+                     </div>
+                     <div class="firstPart d-flex align-items-center justify-content-between">
+                        <img class="logos" src="./Assets/server.png" alt="img">
+                        <p class="txtFo">Server Fault</p>
+                        <p class="num">4.9k</p>
+                     </div>
+                     <div class="firstPart d-flex align-items-center justify-content-between">
+                        <img class="logos" src="./Assets/software.png" alt="img">
+                        <p class="txtFif">Software Engineering</p>
+                        <p class="num">3.4k</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="secondnxt d-flex flex-column align-items-baseline">
+                  <div class="SecondmainRightPart">
+                     <div class="contents d-flex flex-column align-items-center col-10">
+                        <div class="aboutTitle d-flex flex-column ms-md-0 ms-lg-3">
+                           <h3>About</h3>
+                           <p class="authorTxt">Author of <a href="#">C# in Depth</a></p>
+                           <p class="authorDetails">Currently a software engineer at Google, working remotely but near London.
+                              Usually a Microsoft MVP (C#, 2003-2010, 2011-)
+                           </p>
+                           <p class="sites">Sites / social:</p>
+                           <div class="listContents">
+                              <ul>
+                                 <li class="listSetFirst">Mastodon: <a href="#">@jonskeet@hachyderm.io</a></li>
+                                 <li class="listSetSecond"><a href="#">C# in Depth</a></li>
+                                 <li class="listSetThird"><a href="#">Coding blog</a></li>
+                                 <li class="listSetFourth"><a href="#">C# articles</a></li>
+                                 <li class="listSetFifth">Twitter <a href="#">@jonskeet</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="readBtn d-flex flex-row align-items-center">
+                           <button id="myButton" onclick="myFunction()">Read more</button>
+                           <p id="read"></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="badges col-11 ms-3 mt-3">
+                     <div class="badgesContents d-flex justify-content-between align-items-center mb-4 ms-3">
+                        <p style="font-size:21px;">Badges</p>
+                        <div class="viewallNetwork">
+                           <p class="viewallNetworkTxt">View all badges</p>
+                        </div>
+                     </div>
+                     <div class="badgesContainer d-xl-flex gap-1">
+                        <div class="d-sm-flex  gap-1 col">
+                           <div class="badgesCard p-3 col-sm-6">
+                              <div class="badgesIcon d-flex ">
+                                 <div>
+                                    <svg aria-hidden="true" class="fc-gold svg-spot spotAward" width="48"
+                                       height="48" viewBox="0 0 48 48">
+                                       <path fill="#FFD700"
+                                          d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
+                                       </path>
+                                    </svg>
+                                 </div>
+                                 <div class="ms-4">
+                                    <p class="m-0"
+                                       style="font-size:25.846px; font-weight:600; color:#232629;">867</p>
+                                    <p class="m-0" style="font-size:12px;">golden badges</p>
+                                 </div>
+                              </div>
+                              <div class="badgesDetail mt-3 d-flex flex-column gap-2">
+                                 <div class="badgesDetailFirst d-flex justify-content-between">
+                                    <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                       <div class="dot" style="background-color:#FFD700; "></div>
+                                       <p>delegates</p>
+                                    </div>
+                                    <div class="badgesDate">April 6, 2011</div>
+                                 </div>
+                                 <div class="badgesDetailFirst d-flex justify-content-between">
+                                    <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                       <div class="dot" style="background-color:#FFD700; "></div>
+                                       <p> inheritance</p>
+                                    </div>
+                                    <div class="badgesDate">Nov 12, 2011</div>
+                                 </div>
+                                 <div class="badgesDetailFirst d-flex justify-content-between">
+                                    <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                       <div class="dot" style="background-color:#FFD700; "></div>
+                                       <p>events</p>
+                                    </div>
+                                    <div class="badgesDate">Jan 22, 2013</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="badgesCard p-3 col-sm-6 mt-sm-0 mt-3">
+                              <div class="badges-icon d-flex">
+                                 <div>
+                                    <svg aria-hidden="true" class="fc-gold svg-spot spotAward" width="48"
+                                       height="48" viewBox="0 0 48 48">
+                                       <path fill="#C0C0C0"
+                                          d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
+                                       </path>
+                                    </svg>
+                                 </div>
+                                 <div class="ms-4">
+                                    <p class="m-0"
+                                       style="font-size:25.846px; font-weight:600; color:#232629;">9,122
+                                    </p>
+                                    <p class="m-0" style="font-size:12px;">silver badges</p>
+                                 </div>
+                              </div>
+                              <div class="badgesDetail mt-3 d-flex flex-column gap-2">
+                                 <div class="badgesDetailFirst d-flex justify-content-between">
+                                    <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                       <div class="dot" style="background-color:#C0C0C0; "></div>
+                                       <p>.net-2.0</p>
+                                    </div>
+                                    <div class="badgesDate">Sep 3, 2011</div>
+                                 </div>
+                                 <div class="badgesDetailFirst d-flex justify-content-between">
+                                    <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                       <div class="dot" style="background-color:#C0C0C0; "></div>
+                                       <p>coding-style</p>
+                                    </div>
+                                    <div class="badgesDate">Oct 13, 2011</div>
+                                 </div>
+                                 <div class="badgesDetailFirst d-flex justify-content-between">
+                                    <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                       <div class="dot" style="background-color:#C0C0C0; "></div>
+                                       <p>parameters</p>
+                                    </div>
+                                    <div class="badgesDate">Oct 21, 2012</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="badgesCard p-3 col-xl-4 ms-xl-1 mt-xl-0 mt-3 ">
+                           <div class="badger-icon d-flex">
+                              <div>
+                                 <svg aria-hidden="true" class="fc-gold svg-spot spotAward" width="48"
+                                    height="48" viewBox="0 0 48 48">
+                                    <path fill="#CD7F32"
+                                       d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
+                                    </path>
+                                 </svg>
+                              </div>
+                              <div class="ms-4">
+                                 <p class="m-0" style="font-size:25.846px; font-weight:600; color:#232629;">
+                                    9,256
+                                 </p>
+                                 <p class="m-0" style="font-size:12px;">bronze badges</p>
+                              </div>
+                           </div>
+                           <div class="badger-detail mt-3 d-flex flex-column gap-2">
+                              <div class="badgesDetailFirst d-flex justify-content-between">
+                                 <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                    <div class="dot" style="background-color:#CD7F32; "></div>
+                                    <p>generic-list</p>
+                                 </div>
+                                 <div class="badgesDate">May 22, 2012</div>
+                              </div>
+                              <div class="badgesDetailFirst d-flex justify-content-between">
+                                 <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                    <div class="dot" style="background-color:#CD7F32; "></div>
+                                    <p>nullreferenceexcept...</p>
+                                 </div>
+                                 <div class="badgesDate">Oct 26, 2011</div>
+                              </div>
+                              <div class="badgesDetailFirst  d-flex justify-content-between">
+                                 <div class="iconTitle d-flex border px-2 py-1 gap-1">
+                                    <div class="dot" style="background-color:#CD7F32; "></div>
+                                    <p>xmldocument</p>
+                                 </div>
+                                 <div class="badgesDate">Dec 22, 2011</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Top tags-->
+                  <div class="ThirdMainRightPart d-flex flex-column col-11 ms-2 mt-2">
+                     <div class="topTagsContents d-flex justify-content-between align-items-center mb-2">
+                        <p style="font-size:21px;">Top Tags
+                        </p>
+                        <div class="viewallNetwork">
+                           <p class="viewallNetworkTxt">View all tags</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="firstBox col-11">
+                     <div class="firstBoxInside d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="items d-flex gap-1">
+                           <div class="cHash">
+                              <p class="cHashTxt">c#</p>
+                           </div>
+                           <div class="goldIcon">
+                           </div>
+                        </div>
+                        <div class="numSection d-flex align-items-center">
+                           <div class="firstNum d-flex align-items-center">
+                              <h3 class="mb-0">264,880</h3>
+                              <p class="firstNumTxt">score</p>
+                           </div>
+                           <div class="secondNum d-flex align-items-center">
+                              <h3 class="mb-0">19,990</h3>
+                              <p class="secondNumTxt">posts</p>
+                           </div>
+                           <div class="thirdNum d-flex align-items-center ">
+                              <h3 class="mb-0">56</h3>
+                              <p class="thirdNumTxt">posts %</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="firstBoxInsideSecond d-flex align-items-center justify-content-between flex-wrap">
+                        <div class="items d-flex gap-1">
+                           <div class="java">
+                              <p class="javaTxt">java</p>
+                           </div>
+                           <div class="goldIcon">
+                           </div>
+                        </div>
+                        <div class="numSectionSecond d-flex align-items-center">
+                           <div class="firstNum d-flex align-items-center">
+                              <h3 class="mb-0">157,931</h3>
+                              <p class="firstNumTxt">score</p>
+                           </div>
+                           <div class="secondNum d-flex align-items-center">
+                              <h3 class="mb-0">10,593</h3>
+                              <p class="secondNumTxt">posts</p>
+                           </div>
+                           <div class="thirdNum d-flex align-items-center ">
+                              <h3 class="mb-0">30</h3>
+                              <p class="thirdNumTxt">posts %</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="firstBoxInsideThird d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="items d-flex gap-1">
+                           <div class="dotnet">
+                              <p class=".netTxt">.net</p>
+                           </div>
+                           <div class="goldIcon">
+                           </div>
+                        </div>
+                        <div class="numSectionThird d-flex align-items-center">
+                           <div class="firstNum d-flex align-items-center">
+                              <h3 class="mb-0">91,968</h3>
+                              <p class="firstNumTxt">score</p>
+                           </div>
+                           <div class="secondNum d-flex align-items-center">
+                              <h3 class="mb-0">5,651</h3>
+                              <p class="secondNumTxt">posts</p>
+                           </div>
+                           <div class="thirdNum d-flex align-items-center ">
+                              <h3 class="mb-0">16</h3>
+                              <p class="thirdNumTxt">posts %</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="firstBoxInsideFourth d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="items d-flex gap-1">
+                           <div class="linq">
+                              <p class="linqTxt">linq</p>
+                           </div>
+                           <div class="goldIcon">
+                           </div>
+                        </div>
+                        <div class="numSectionFourth d-flex align-items-center">
+                           <div class="firstNum d-flex align-items-center">
+                              <h3 class="mb-0">38,295</h3>
+                              <p class="firstNumTxt">score</p>
+                           </div>
+                           <div class="secondNum d-flex align-items-center">
+                              <h3 class="mb-0">3,004</h3>
+                              <p class="secondNumTxt">posts</p>
+                           </div>
+                           <div class="thirdNum d-flex align-items-center ">
+                              <h3 class="mb-0">8</h3>
+                              <p class="thirdNumTxt">posts %</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="firstBoxInsideFifth d-flex align-items-center justify-content-between flex-wrap">
+                        <div class="items d-flex gap-1">
+                           <div class="string">
+                              <p class="stringTxt">string</p>
+                           </div>
+                           <div class="goldIcon">
+                           </div>
+                        </div>
+                        <div class="numSectionFifth d-flex align-items-center">
+                           <div class="firstNum d-flex align-items-center">
+                              <h3 class="mb-0">24,728</h3>
+                              <p class="firstNumTxt">score</p>
+                           </div>
+                           <div class="secondNum d-flex align-items-center">
+                              <h3 class="mb-0">1,014</h3>
+                              <p class="secondNumTxt">posts</p>
+                           </div>
+                           <div class="thirdNum d-flex align-items-center ">
+                              <h3 class="mb-0">3</h3>
+                              <p class="thirdNumTxt">posts %</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="firstBoxInsideSixth d-flex align-items-center justify-content-between flex-wrap">
+                        <div class="items d-flex gap-1">
+                           <div class="generics">
+                              <p class="genericsTxt">generics</p>
+                           </div>
+                           <div class="goldIcon">
+                           </div>
+                        </div>
+                        <div class="numSectionSixth d-flex align-items-center">
+                           <div class="firstNum d-flex align-items-center">
+                              <h3 class="mb-0">22,357</h3>
+                              <p class="firstNumTxt">score</p>
+                           </div>
+                           <div class="secondNum d-flex align-items-center">
+                              <h3 class="mb-0">1,291</h3>
+                              <p class="secondNumTxt">posts</p>
+                           </div>
+                           <div class="thirdNum d-flex align-items-center ">
+                              <h3 class="mb-0">4</h3>
+                              <p class="thirdNumTxt">posts %</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Top Posts-->
+                  <div class="fourthMainRightPart d-flex justify-content-between col-11 mt-2 flex-wrap">
+                     <div class="topPostsContents d-flex flex-column">
+                        <div class="topPostsTxt">
+                           <h3>Top posts</h3>
+                        </div>
+                        <div class="viewallNxtPart">
+                           <p class="viewallNxtPartTxt">View all <a href="#">questions, answers,</a> and <a href="#">articles</a></p>
+                        </div>
+                     </div>
+                     <div class="boxContents d-flex align-items-center ms-0 gap-1">
+                        <div class="boxFirst d-flex gap-1">
+                           <div class="allBox">
+                              <p class="allTxt">All</p>
+                           </div>
+                           <div class="quesBox">
+                              <p class="quesTxt">Questions</p>
+                           </div>
+                           <div class="ansBox">
+                              <p class="ansTxt">Answers</p>
+                           </div>
+                           <div class="artBox">
+                              <p class="artiTxt">Articles</p>
+                           </div>
+                        </div>
+                        <div class="boxSecond d-flex">
+                           <div class="scoreBox">
+                              <p class="scoreTxt">Score</p>
+                           </div>
+                           <div class="newestBox">
+                              <p class="newestTxt">Newest</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="secondMainBox col-11 mt-2">
+                     <div class="secondMainBoxInside d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">11863</p>
+                              </div>
+                           </div>
+                           <div class="sentenceFt">
+                              <p class="sentenceTxt">Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Jul 27, 2011</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideSecond d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">4738</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxt">Why is char[] preferred over String for passwords?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Jan 16, 2012</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideThird d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabetSec.png" alt="image">
+                              </div>
+                              <div class="numSetThird">
+                                 <p class="numSetPart">3804</p>
+                              </div>
+                           </div>
+                           <div class="sentenceThird">
+                              <p class="sentenceTxt">What is the difference between String and string in C#?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Oct 18, 2008</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideFourth d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">3388</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxt">How do I call one constructor from another in Java?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Nov 12, 2008</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideFifth d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">3191</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxt">What are the correct version numbers for C#?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Oct 29, 2008</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideSixth d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/quesAlp.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">2893</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxtt">What are the correct version numbers for C#?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Oct 29, 2008</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideSeventh d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet d-flex align-items-center">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">2742</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxt">How do I break out of nested loops in Java?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">May 20, 2009</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideEight d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">2576</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxt">What is a serialVersionUID and why should I use it?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Nov 12, 2008</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideNine d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">2572</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxt">Difference between decimal, float and double in .NET?</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Mar 6, 2009</p>
+                        </div>
+                     </div>
+                     <div class="secondMainBoxInsideTen d-flex justify-content-between align-items-center">
+                        <div class="itemsSet d-flex align-items-center">
+                           <div class="alphNum d-flex align-items-center gap-1">
+                              <div class="alphabetSet">
+                                 <img class="alphabet" src="./Assets/alphabet.png" alt="image">
+                              </div>
+                              <div class="numSet">
+                                 <p class="numSetPart">2067</p>
+                              </div>
+                           </div>
+                           <div class="sentence">
+                              <p class="sentenceTxt">Group by in LINQ</p>
+                           </div>
+                        </div>
+                        <div class="yearSet">
+                           <p class="yearSetTxt">Sep 6, 2011</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!--Meta Posts-->
+                  <div class="fifthMainRightPart d-flex justify-content-between col-11 mt-2">
+                     <div class="topMeta d-flex justify-content-between col-12">
+                        <div class="topMetaTxt">
+                           <h3>Top Meta posts</h3>
+                        </div>
+                        <div class="topMetaRight d-flex align-items-center gap-3">
+                           <div class="quesPart d-flex">
+                              <img src="./Assets/quesSet.png" alt="image">
+                              <p> 3</p>
+                           </div>
+                           <div class="ansPart d-flex">
+                              <img src="./Assets/alph.png" alt="image">
+                              <p> 23</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="thirdMainBox col-11">
+                     <div class="thirdMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemSets d-flex">
+                           <div class="logoNum d-flex align-items-center">
+                              <div class="logoSet">
+                                 <img class="smallStack" src="./Assets/stackSmallLogo.png" alt="image">
+                              </div>
+                              <div class="numSets">
+                                 <p class="numSetParts">943</p>
+                              </div>
+                           </div>
+                           <div class="secondSentence">
+                              <p class="secondSentenceTxt">Congratulations for reaching a million, Gordon Linoff!</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="thirdMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemSets d-flex">
+                           <div class="logoNum d-flex align-items-center">
+                              <div class="logoSet">
+                                 <img class="smallStack" src="./Assets/stackSmallLogo.png" alt="image">
+                              </div>
+                              <div class="numSets">
+                                 <p class="numSetParts">816</p>
+                              </div>
+                           </div>
+                           <div class="secondSentence">
+                              <p class="secondSentenceTxt">Stack Overflow question checklist</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="thirdMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemSets d-flex">
+                           <div class="logoNum d-flex align-items-center">
+                              <div class="logoSet">
+                                 <img class="smallStack" src="./Assets/stackSmallLogo.png" alt="image">
+                              </div>
+                              <div class="numSets">
+                                 <p class="numSetParts">471</p>
+                              </div>
+                           </div>
+                           <div class="secondSentence">
+                              <p class="secondSentenceTxt">Are we being "elitist"? Is there something wrong with that?</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="thirdMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemSets d-flex">
+                           <div class="logoNum d-flex align-items-center">
+                              <div class="logoSet">
+                                 <img class="smallStack" src="./Assets/stackSmallLogo.png" alt="image">
+                              </div>
+                              <div class="numSets">
+                                 <p class="numSetParts">205</p>
+                              </div>
+                           </div>
+                           <div class="secondSentence">
+                              <p class="secondSentenceTxt">What should I do about a user that I'm trying to help and is calling me stupid</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="thirdMainBoxInsideLast d-flex align-items-center justify-content-between">
+                        <div class="itemSets d-flex">
+                           <div class="logoNum d-flex align-items-center">
+                              <div class="logoSet">
+                                 <img class="smallStack" src="./Assets/stackSmallLogo.png" alt="image">
+                              </div>
+                              <div class="numSets">
+                                 <p class="numSetParts">170</p>
+                              </div>
+                           </div>
+                           <div class="secondSentence">
+                              <p class="secondSentenceTxt">Who's the person with more answers than Jon Skeet? When will they catch him in rep terms?</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sixthMainRightPart d-flex justify-content-between col-11 mt-2">
+                     <div class="topNetwork d-flex justify-content-between align-items-center col-12 mb-0">
+                        <div class="topNetworkTxt">
+                           <h3 class="mb-0">Top network posts</h3>
+                        </div>
+                        <div class="topNetworkRight">
+                           <div class="viewallNetwork">
+                              <p class="viewallNetworkTxt">View all network posts</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fourthMainBox col-11 mt-3">
+                     <div class="fourthMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemsSets d-flex">
+                           <div class="logosNum d-flex align-items-center">
+                              <div class="logosSet">
+                                 <img class="chat" src="./Assets/chatLogo.png" alt="image">
+                              </div>
+                              <div class="numsSets">
+                                 <p class="numSetParts">887</p>
+                              </div>
+                           </div>
+                           <div class="secondSentences">
+                              <p class="secondSentencesTxt">Allow an edit to notify downvoters: "I think I've fixed the issue now - please check"</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="fourthMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemsSets d-flex">
+                           <div class="logosNum d-flex align-items-center">
+                              <div class="logosSet">
+                                 <img class="chat" src="./Assets/chatLogo.png" alt="image">
+                              </div>
+                              <div class="numsSets">
+                                 <p class="numSetParts">821</p>
+                              </div>
+                           </div>
+                           <div class="secondSentences">
+                              <p class="secondSentencesTxt">Jon Skeet Facts</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="fourthMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemsSets d-flex">
+                           <div class="logosNum d-flex align-items-center">
+                              <div class="logosSet">
+                                 <img class="chat" src="./Assets/chatLogo.png" alt="image">
+                              </div>
+                              <div class="numsSets">
+                                 <p class="numSetParts">299</p>
+                              </div>
+                           </div>
+                           <div class="secondSentences">
+                              <p class="secondSentencesTxt">Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="fourthMainBoxInside d-flex align-items-center justify-content-between">
+                        <div class="itemsSets d-flex">
+                           <div class="logosNum d-flex align-items-center">
+                              <div class="logosSet">
+                                 <img class="chat" src="./Assets/server.png" alt="image">
+                              </div>
+                              <div class="numsSets">
+                                 <p class="numSetParts">283</p>
+                              </div>
+                           </div>
+                           <div class="secondSentences">
+                              <p class="secondSentencesTxt">Shell command to monitor changes in a file</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="fourthMainBoxInsideLast d-flex align-items-center justify-content-between">
+                        <div class="itemsSets d-flex">
+                           <div class="logosNum d-flex align-items-center">
+                              <div class="logosSet">
+                                 <img class="chat" src="./Assets/chatLogo.png" alt="image">
+                              </div>
+                              <div class="numsSets">
+                                 <p class="numSetParts">182</p>
+                              </div>
+                           </div>
+                           <div class="secondSentences">
+                              <p class="secondSentencesTxt">Please show us when we lose an accepted answer</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="collectivesPart d-flex d-lg-none ms-2 col-11">
+               <h3>Collectives</h3>
+            </div>
+            <div class="collectivesPartInside d-lg-none d-flex align-items-start col-11 ms-2 mt-2">
+               <div class="collectivesImg d-flex align-items-center justify-content-start">
+                  <img class="cloud" src="./Assets/cloudImg.png" alt="img">
+               </div>
+               <div class="cloudTxt d-flex flex-column justify-content-center align-items-start">
+                  <p class="cloudTxtFt">Google Cloud</p>
+                  <p class="cloudDate">2021 . Member</p>
+               </div>
+            </div>
+            <div class="communitiesPart d-flex d-lg-none col-11 ms-2 justify-content-between">
+               <h3>Communities</h3>
+               <div class="viewPart d-flex align-items center">
+                  <p class="viewTxt">View all</p>
+                  <svg aria-hidden="true" class="svg-icon iconShareSm" width="14" height="14" viewBox="0 0 14 14">
+                     <path d="M5 1H3a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V9h-2v2H3V3h2V1Zm2 0h6v6h-2V4.5L6.5 9 5 7.5 9.5 3H7V1Z"></path>
+                  </svg>
+               </div>
+            </div>
+            <div class="communitiesPartInside d-flex flex-column d-lg-none d-flex col-11 ms-2">
+               <div class="firstPart d-flex align-items-center justify-content-start">
+                  <img class="logos" src="./Assets/stack.png" alt="image">
+                  <p class="txtFi">Stack Overflow</p>
+                  <p class="num">1.4m</p>
+               </div>
+               <div class="firstPart d-flex align-items-center justify-content-start">
+                  <img class="logos" src="./Assets/meta.png" alt="image">
+                  <p class="txtSe">MetaStack Exchange</p>
+                  <p class="num">93.7k</p>
+               </div>
+               <div class="firstPart d-flex align-items-center justify-content-start">
+                  <img class="logos" src="./Assets/super.png" alt="img">
+                  <p class="txtTh">Super User</p>
+                  <p class="num">5.1k</p>
+               </div>
+               <div class="firstPart d-flex align-items-center justify-content-start">
+                  <img class="logos" src="./Assets/server.png" alt="img">
+                  <p class="txtFo">Server Fault</p>
+                  <p class="num">4.9k</p>
+               </div>
+               <div class="firstPart d-flex align-items-center justify-content-start">
+                  <img class="logos" src="./Assets/software.png" alt="img">
+                  <p class="txtFif">Software Engineering</p>
+                  <p class="num">3.4k</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--FOOTER-->
+      <div class="footer d-lg-flex justify-content-between col-12 mt-1">
+         <div class="d-lg-flex  justify-content-start m-0 p-0  col-md-8 col-sm-12 gap-2">
+            <div class="footerIcon d-none d-md-flex  mb-4 mt-3 ms-3 col-1 ps-4">
+               <svg aria-hidden="true" class="native svg-icon iconLogoGlyphMd" width="32" height="37"
+                  viewBox="0 0 32 37">
+                  <path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB"></path>
+                  <path
+                     d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z"
+                     fill="#F48024"></path>
+               </svg>
+            </div>
+            <div class="footerNav d-flex flex-column  flex-lg-row  mt-4 col-lg-10 ms-2">
+               <div class="stackOverflow col-lg-3 my-2">
+                  <h6 class="footerTitle">STACK OVERFLOW
+                  </h6>
+                  <div class="queSet d-flex gap-2 flex-lg-column p-0 m-0 flex-wrap">
+                     <p>Questions</p>
+                     <p>Help</p>
+                  </div>
+               </div>
+               <div class="stackProducts col-lg-2 my-2">
+                  <h6 class="footerTitle">PRODUCTS
+                  </h6>
+                  <div class="prodSet d-flex gap-2  flex-lg-column p-0 m-0  flex-wrap">
+                     <p>Teams</p>
+                     <p>Advertising</p>
+                     <p>Collective</p>
+                     <p>Talent</p>
+                  </div>
+               </div>
+               <div class="stackCompany col-lg-2 my-2">
+                  <h6 class="footerTitle">COMPANY
+                  </h6>
+                  <div class="compSet d-flex gap-2  flex-lg-column p-0 m-0 flex-wrap">
+                     <p>About</p>
+                     <p>Press</p>
+                     <p>Work Here</p>
+                     <p>Legal</p>
+                     <p>Privacy policy</p>
+                     <p>Teams</p>
+                     <p>Terms of Service</p>
+                     <p>Contact Us</p>
+                     <p>Cookie Settings</p>
+                     <p>Cookie Policy</p>
+                  </div>
+               </div>
+               <div class="stackExchange col-12 col-lg-2.5 my-2 ps-lg-4">
+                  <h6 class="footerTitle">STACK EXCHANGE NETWORK
+                  </h6>
+                  <div class="excSet d-flex gap-2  flex-lg-column p-0 m-0 flex-wrap">
+                     <p>Technology</p>
+                     <p>Culture & recreation
+                     <p>Life & arts</p>
+                     <p>Science</p>
+                     <p>Professional</p>
+                     <p>Business</p>
+                     <div class="mt-lg-4">
+                        <p>API</p>
+                     </div>
+                     <p>Data</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="about flex-wrap col-lg-2.5 mt-2 ms-2">
+            <div class="social d-flex gap-2 my-3 p-0 flex-wrap mb-lg-5 pb-lg-5">
+               <p>Blog</p>
+               <p>Facebook</p>
+               <p>Twitter</p>
+               <p>LinkedIn</p>
+               <p>Instagram</p>
+            </div>
+            <div class="py-lg-3 my-lg-4"></div>
+            <div class="copyright mt-lg-5 pt-lg-5">
+               <p class="lastTxt mb-md-0 flex-wrap">
+                  Site design / logo © 2023 Stack Exchange Inc; user contributions licensed under 
+                  <a href="#">CC BY-SA</a>. rev 2024.2.21.5177
+               </p>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,1113 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mainSection {
+	width: 100%;
+}
+.header {
+	border-top: 3px solid hsl(27, 90%, 50%);
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.stackLogo {
+	/*padding:11px 7px 0px 0px;*/
+	cursor: pointer;
+	padding:15px 0px 15px 0px;
+}
+.stackLogo:hover {
+	background-color: hsl(210, 8%, 90%);
+	border-radius: 5px;
+}
+.logo {
+	color: #1B75D0;
+	height: 30px;
+	width: 150px;
+}
+
+.logoBetween {
+	gap: 10px;
+}
+
+.headerTopics {
+	color: #636B74;
+	font-size: 13px;
+	font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	cursor: pointer;
+}
+.topics {
+	padding: 5px 10px;
+	border-radius: 21px;
+}
+.topicsSecond {
+	padding: 5px 10px;
+	border-radius: 21px;
+	width:80px;
+}
+.topics:hover {
+	background-color: hsl(210, 8%, 90%);
+}
+.topicsSecond:hover {
+	background-color: hsl(210, 8%, 90%);
+}
+.searchBox {
+	width: 700px;
+	border-radius: 8px;
+	border: 1px solid #C0C0C0;
+	margin:13px 0px 10px 10px;
+}
+.searchBox input {
+	font-size: 13px;
+	outline: none;
+	border-style: none;
+	background-color: #FFFFFF;
+	color: black;
+}
+.userBox span {
+	color: #636B74;
+	font-size: 25px;
+}
+.searchIcon {
+	color: black;
+	/*margin:0px 1px 0px 4px;*/
+	padding: 5px;
+}
+.headerEnd {
+	gap: 4px;
+	cursor: pointer;
+}
+.login {
+	font-size: 13px;
+	height: 35px;
+	border-radius: 5px;
+	color: #1B75D0;
+	border: 1px solid #1b75d0;
+	width: 65px;
+}
+.login p {
+	margin-top: 0px;
+	padding-left: 13px;
+}
+.login:hover {
+	background-color: hsl(206, 96%, 90%);
+
+}
+.signup {
+	font-size: 13px;
+	background-color: #1b75d0;
+	height: 35px;
+	border-radius: 5px;
+	color: #ffffff;
+	width: 65px;
+}
+.signup p {
+	padding-left: 3px;
+	padding-right:3px;
+}
+.signup:hover {
+	background-color: hsl(210, 77%, 36%);
+
+}
+.headerLeftIcons {
+	border-right: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+}
+.headerLeftFirst {
+	/*margin:21px 0px 0px 39px;*/
+	font-size: 13px;
+	gap: 14px;
+}
+.homeSection {
+	gap: 7px;
+	cursor: pointer;
+}
+.homeSection svg {
+	fill: hsl(210, 8%, 25%);
+}
+.homeTxt {
+	color: hsl(210, 8%, 25%);
+}
+.homeSection svg:hover {
+	fill: hsl(210, 8%, 5%);
+}
+.homeTxt:hover {
+	color: hsl(210, 8%, 5%);
+}
+.questionSection {
+	gap: 7px;
+	cursor: pointer;
+}
+.questionSection svg {
+	fill: hsl(210, 8%, 25%);
+}
+.questionTxt {
+	color: hsl(210, 8%, 25%);
+}
+.questionTxt:hover {
+	color: hsl(210, 8%, 5%);
+}
+.questionSection svg:hover {
+	fill: hsl(210, 8%, 5%);
+}
+.tagsSection {
+	gap: 7px;
+	cursor: pointer;
+}
+.tagsSection svg {
+	fill: hsl(210, 8%, 25%);
+}
+.tagsTxt {
+	color: hsl(210, 8%, 25%);
+}
+.tagsSection svg:hover {
+	fill: hsl(210, 8%, 5%);
+}
+.tagsTxt:hover {
+	color: hsl(210, 8%, 5%);
+}
+.headerLeftIcons{
+	overflow:scroll;
+}
+.headerLeftSecond {
+	/*margin-left: 35px;*/
+	font-size: 13px;
+	margin-top: 28px;
+	gap: 11px;
+}
+.usersSection {
+	gap: 7px;
+	width: 97%;
+	height: 25px;
+	bordr-radius: 5px;
+	background-color: hsl(0, 0%, 95%);
+	padding: 5px;
+	outline: none;
+	border-style: none;
+	cursor: pointer;
+}
+.companiesSection {
+	gap: 7px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+.companiesSection svg {
+	fill: hsl(210, 8%, 25%);
+}
+.companiesTxt {
+	color: hsl(210, 8%, 25%);
+}
+.companiesSection svg:hover {
+	fill: hsl(210, 8%, 5%);
+}
+.companiesTxt:hover {
+	color: hsl(210, 8%, 5%);
+}
+.headerLeftThird {
+	font-size: 13px;
+	gap: 17px;
+	/*margin:25px 0px 0px 35px;*/
+}
+.labsSection {
+	gap: 86px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+.labsSection svg {
+	fill: hsl(210, 8%, 25%);
+}
+.labsTxt {
+	font-weight: 500;
+}
+.labsSection svg:hover {
+	fill: hsl(210, 8%, 5%);
+}
+.discussionsSection {
+	gap: 7px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+.discussionsSection svg {
+	fill: hsl(210, 8%, 25%);
+}
+.discussionsTxt {
+	color: #3b4045;
+}
+.discussionsTxt:hover {
+	color: hsl(210, 8%, 5%);
+}
+.headerLeftFourth {
+	font-size: 13px;
+	gap: 15px;
+	/*margin:27px 0px 0px 35px;*/
+}
+.collectivesSection {
+	gap: 38px;
+	cursor: pointer;
+}
+.collectivesSection svg {
+	fill: hsl(210, 8%, 25%);
+}
+.collectivesTxt {
+	font-weight: 500;
+}
+
+.collectivesSection svg:hover {
+	fill: hsl(210, 8%, 5%);
+}
+.exploreSection {
+	gap: 7px;
+	cursor: pointer;
+}
+.exploreSection svg {
+	fill: hsl(27, 90%, 55%)
+}
+.exploreTxt {
+	color: #3b4045;
+}
+
+.exploreTxt:hover {
+	color: hsl(210, 8%, 5%);
+}
+.headerLeftFifth {
+	font-size: 13px;
+	/*margin:20px 0px 0px 35px;*/
+}
+.teamsTxt {
+	font-weight: 500;
+}
+.userImage img {
+	margin-top: 15px;
+	cursor: pointer;
+}
+.userName {
+	font-size: 34px;
+	margin:22px 0px 0px 5px;
+}
+.userDate {
+
+	font-size: 13px;
+	color: hsl(210, 8%, 42%);
+	margin-top: 13px;
+}
+.userDate svg {
+	fill: hsl(210, 8%, 42%);
+	cursor: default;
+}
+.userYear {
+	gap: 5px;
+
+}
+.lastSeen {
+	gap: 6px;
+}
+
+.lastSeen svg {
+	gap: 3px;
+	cursor: default;
+}
+.icons {
+	font-size: 13px;
+	color: hsl(210, 8%, 42%);
+	height: 45px;
+}
+.userIcons {
+	gap: 5px;
+
+}
+.location {
+	gap: 5px;
+}
+
+.icons svg {
+	fill: hsl(210, 8%, 42%);
+}
+
+.twitter svg {
+	cursor: pointer;
+}
+
+.github svg {
+	cursor: pointer;
+}
+
+.csharpTxt {
+	cursor: pointer;
+}
+.profileButton button {
+	font-size: 12px;
+	width: 74.45px;
+	border: 1px solid #ddd;
+	height: 35.03px;
+	padding-left: 10px;
+	border-radius: 7px;
+	background-color:hsl(210, 8%, 98%);
+}
+.profileButton span {
+	position: relative;
+	top: 2px;
+}
+.headerSecond {
+	font-size: 13px;
+	gap: 5px;
+}
+.profilesBtn {
+	font-size: 13px;
+	padding: 5px 10px;
+	height: 21px;
+	border-radius: 21px;
+	color: #ffffff;
+	background-color: hsl(27, 90%, 55%);
+	cursor: pointer;
+	margin:10px 0px 0px 10px;
+}
+.profilesBtn:hover {
+	background-color: hsl(27, 87%, 41%);
+}
+.activityBtn {
+	font-size: 13px;
+	/*padding: 5px 10px;
+	height: 21px;*/
+	border-radius: 21px;
+	margin-top: 10px;
+	cursor: pointer;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.activityBtn:hover {
+	background-color: hsl(0, 0%, 84%);
+}
+.secondmainLeftPart {
+	margin-top: 15px;
+}
+.statsPart h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+}
+.statsInside {
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	font-size: 13px;
+	color: #636b74;
+}
+.trophyLogo svg {
+	fill: #636b74;
+}
+.numbers {
+	font-size: 17px;
+	color: #0c0d0e;
+}
+.collectivesPart {
+	margin-top: 15px;
+
+}
+.collectivesPart h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+}
+.collectivesPartInside {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 12px;
+	height: 66px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.collectivesImg {
+	margin-left: 1px;
+}
+.cloudTxt {
+	margin-left: 16px;
+}
+.cloudDate {
+	margin-top: 5px;
+}
+.communitiesPart {
+	margin-top: 20px;
+}
+.communitiesPart h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+}
+.viewPart {
+	font-size: 13px;
+	margin-left: 23px;
+}
+.viewPart p {
+	cursor: pointer;
+}
+.viewPart p:hover {
+	color: hsl(210, 8%, 25%);
+}
+.viewPart svg {
+	cursor: pointer;
+	margin:5px 0px 0px 4px;
+}
+.viewPart svg:hover {
+	fill: hsl(210, 8%, 25%);
+}
+.communitiesPartInside {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 2px;
+	margin-top: 12px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.firstPart {
+	padding: 3px;
+}
+.txtFi {
+	margin-right: 59px;
+	color: #1B75D0;
+}
+.txtFi:hover {
+	color: hsl(210, 77%, 36%);
+}
+.txtSe {
+	margin-right: 28px;
+	color: #1B75D0;
+}
+.txtSe:hover {
+	color: hsl(210, 77%, 36%);
+}
+.txtTh {
+	margin-right: 88px;
+	color: #1B75D0;
+}
+.txtTh:hover {
+	color: hsl(210, 77%, 36%);
+}
+.txtFo {
+	margin-right: 83px;
+	color: #1B75D0;
+}
+.txtFo:hover {
+	color: hsl(210, 77%, 36%);
+}
+.txtFif {
+	margin-right: 27px;
+	color: #1B75D0;
+}
+.txtFif:hover {
+	color: hsl(210, 77%, 36%);
+}
+.num {
+	color: #636B74;
+}
+.aboutTitle {
+	margin-top: 17px;
+}
+.aboutTitle h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+}
+.authorTxt {
+	margin-top: 10px;
+	color: #3B4045;
+	font-size: 15px;
+}
+.authorTxt a {
+	color: #1B75D0;
+}
+.authorTxt a:hover {
+	color: hsl(210, 77%, 36%);
+}
+.authorDetails {
+	margin-top: 18px;
+	color: #3B4045;
+	font-size: 15px;
+}
+.sites {
+	padding-top: 20px;
+	color: #3B4045;
+	font-size: 15px;
+}
+.listContents {
+	color: #3B4045;
+	font-size: 15px;
+	margin:16px 0px 0px 29px;
+}
+.listContents a {
+	color: #1B75D0;
+}
+.listContents a:hover {
+	color: hsl(210, 77%, 36%);
+}
+.listSetSecond {
+	padding-top: 8px;
+	color: #3B4045;
+}
+.listSetThird {
+	padding-top: 8px;
+	color: #3B4045;
+}
+.listSetFourth {
+	padding-top: 8px;
+	color: #3B4045;
+}
+.listSetFifth {
+	padding-top: 8px;
+	color: #3B4045;
+}
+.blue-underline{
+	color:#1B75D0;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.blue-underline:hover{
+	color: hsl(210, 77%, 36%);
+}
+#myButton{
+	border: 1px solid #ddd;
+    	padding: 3px 6px 5px 8px;
+    	font-size: 11px;
+    	border-radius: 4px;
+}
+.dot {
+    height: 6.5px;
+    width: 6.5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.iconTitle {
+    font-size: 11px;
+    border-radius: 6px;
+    color: #525960;
+    background-color: #f1f2f3;
+    cursor:pointer;
+}
+.iconTitle:hover{
+	background-color:hsl(210, 8%, 90%);
+}
+.badgesDate {
+    color: hsl(210, 8%, 25%);
+    font-size: 11px;
+}
+.tag-dot {
+    background-color: #FFD700;
+    margin: 10px 6px 6px 7px;
+}
+.badgesCard{
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+.ThirdMainRightPart {
+	margin-top: 20px;
+}
+.numTxtSecond{
+	cursor:pointer;
+	margin-top:6px;
+}
+.topTagsTxt h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+	margin-left: 25px;
+}
+.viewallTags {
+	font-size: 13px;
+	margin-top: 14px;
+	color: #636B74;
+	cursor: pointer;
+}
+.viewallTags:hover {
+	color: hsl(210, 8%, 25%);
+}
+.firstBox {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 13px;
+}
+.firstBoxInside {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.goldIcon {
+	border: 1px solid black;
+	width: 6px;
+	height: 5px;
+	border-radius: 50px;
+	margin-top: 8px;
+	background-color: hsl(43, 85%, 50%);
+	border-style: none;
+	margin-left: 5px;
+}
+.firstNum {
+	gap: 5px;
+}
+.firstNum h3 {
+	font-size: 17px;
+	color: #0C0D0E;
+	font-weight: 400;
+}
+.firstNumTxt {
+	font-size: 13px;
+	color: #636B74;
+}
+.secondNum {
+	gap: 5px;
+}
+.secondNum h3 {
+	font-size: 17px;
+	color: #0C0D0E;
+	font-weight: 400;
+	padding-left: 10px;
+}
+.secondNumTxt {
+	font-size: 13px;
+	color: #636B74;
+}
+.thirdNum h3 {
+	font-size: 17px;
+	color: #0C0D0E;
+	font-weight: 400;
+	padding-left: 7px;
+}
+.thirdNumTxt {
+	font-size: 13px;
+	color: #636B74;
+}
+.cHash {
+	border: 1px solid black;
+	border-radius: 5px;
+	border-style: none;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	font-size: 13px;
+	padding:0px 4px 3px 6px;
+}
+.cHash:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+.firstBoxInsideSecond {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.java {
+	border: 1px solid black;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding:2px 0px 2px 5px;
+}
+.java:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+.firstBoxInsideThird {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.dotnet {
+	border: 1px solid black;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding:2px 0px 2px 5px;
+}
+.dotnet:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+.firstBoxInsideFourth {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+	
+}
+.linq {
+	border: 1px solid black;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding:2px 0px 2px 5px;
+}
+.linq:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+.firstBoxInsideFifth {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+	justify-content: space-between;
+}
+.string {
+	border: 1px solid black;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding:2px 0px 2px 5px;
+}
+.string:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+.firstBoxInsideSixth {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+	
+}
+.generics {
+	border: 1px solid black;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: hsl(210, 80%, 96%);
+	color: hsl(210, 80%, 23%);
+	cursor: pointer;
+	border-style: none;
+	padding:2px 0px 2px 5px;
+}
+.generics:hover {
+	background-color: hsl(210, 80%, 91%);
+}
+.topPostsTxt h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+}
+.viewallNxtPart {
+	font-size: 13px;
+}
+.viewallNxtPart a {
+	text-decoration: none;
+	color: #1B75D0;
+}
+.viewallNxtPart a:hover {
+	color: hsl(210, 77%, 36%);
+}
+.boxContents {
+	margin-top: 11px;
+}
+.boxFirst {
+	gap: 10px;
+	font-size: 11px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 28px;
+}
+.allBox {
+	border-right: 1px solid #ddd;
+	width: 28px;
+	padding-top: 5px;
+	background-color: hsl(210, 8%, 90%);
+}
+.allTxt {
+	padding-left: 9px;
+}
+.quesBox {
+	border-right:1px solid #ddd;
+	padding:5px 5px 0px 0px;
+	
+}
+.ansBox {
+	padding-top: 6px;
+	border-right:1px solid #ddd;
+	width: 51px
+}
+.artBox {
+	padding-top: 6px;
+	width: 47px;
+}
+.boxSecond {
+	gap: 5px;
+	font-size: 11px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	height: 28px;
+	/*margin-left: 11px;*/
+	cursor: pointer;
+}
+.scoreBox {
+	width: 39px;
+	padding-top: 5px;
+	background-color: hsl(210, 8%, 90%);
+}
+.scoreTxt {
+	padding-left: 9px;
+}
+.newestBox {
+	padding:5px 5px 0px 0px;
+	
+}
+.secondMainBox {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 13px;
+}
+.secondMainBoxInside {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.numSet {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	font-size: 13px;
+	background-color: hsl(148, 70%, 31%);
+	border-style: none;
+	color: white;
+	margin-bottom: 5px;
+	padding:3px 3px 5px 2px;
+}
+
+.numSetThird {
+
+	border: 1px solid #ddd;
+	color: #0C0D0E;
+	border-radius: 3px;
+	font-size: 13px;
+	margin-bottom: 5px;
+	padding:3px 5px 5px 4px;
+}
+.sentence {
+	font-size: 14px;
+	padding-left: 18px;
+	color: hsl(210, 77%, 46%);
+	cursor: pointer;
+}
+.sentence:hover {
+	color: hsl(209, 100%, 32%);
+}
+.sentenceFt {
+	font-size: 14px;
+	padding-left: 12px;
+	color: hsl(210, 77%, 46%);
+	cursor: pointer;
+}
+.sentenceFt:hover {
+	color: hsl(209, 100%, 32%);
+}
+.sentenceThird {
+	font-size: 14px;
+	padding-left: 12px;
+	color: hsl(210, 77%, 46%);
+	cursor: pointer;
+}
+.sentenceThird:hover {
+	color: hsl(209, 100%, 32%);
+}
+.sentenceTxtt{
+	color:#0C3B6A;
+}
+.yearSet {
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: hsl(210, 8%, 42%);
+}
+.secondMainBoxInsideSecond {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideThird {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideFourth {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideFifth {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideSixth {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideSeventh {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideEight {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideNine {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.secondMainBoxInsideTen {
+	padding: 13px;
+}
+.topMetaTxt h3 {
+	font-size: 21px;
+	color: #0c0d0e;
+	font-weight: 400;
+}
+.topMetaRight {
+	margin-top: 7px;
+}
+.quesPart {
+	font-size: 13px;
+	color:#636B74;
+}
+.ansPart {
+	font-size: 13px;
+	color:#636B74;
+}
+.thirdMainBox {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.thirdMainBoxInside {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.logoNum {
+	gap: 7px;
+}
+.numSets {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding:3px 6px 5px 5px;
+	font-size: 13px;
+	color: #0c0d0e;
+}
+.secondSentence {
+	cursor: pointer;
+	font-size: 15px;
+	padding-left: 18px;
+	color: hsl(210, 77%, 46%);
+}
+.secondSentence:hover {
+	color: hsl(209, 100%, 32%);
+}
+.thirdMainBoxInside {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.thirdMainBoxInsideLast {
+	padding: 13px;
+}
+.topNetworkTxt h3 {
+	font-size: 19px;
+	color: #0c0d0e;
+	font-weight: 400;
+}
+.viewallNetwork {
+	font-size: 13px;
+	color: #636B74;
+	cursor: pointer;
+}
+.viewallNetwork:hover {
+	color: hsl(210, 8%, 25%);
+}
+.fourthMainBox {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.fourthMainBoxInside {
+	border-bottom: 1px solid #ddd;
+	padding: 13px;
+}
+.logosNum {
+	gap: 7px;
+}
+.numsSets {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	font-size: 13px;
+	color: #0c0d0e;
+	padding:3px 6px 5px 5px;
+}
+.secondSentences {
+	cursor: pointer;
+	font-size: 15px;
+	padding-left: 18px;
+	color: hsl(210, 77%, 46%);
+}
+.secondSentences:hover {
+	color: hsl(209, 100%, 32%);
+}
+.fourthMainBoxInsideLast {
+	padding: 13px;
+	
+}
+.footer {
+	background-color: hsl(210, 8%, 5%);
+	color:#BABFC5;
+	
+.footerTitle{
+	cursor:pointer;
+}
+.queSet p{
+	cursor:pointer;
+}
+.queSet p:hover{
+	color:white;
+}
+.prodSet p{
+	cursor:pointer;
+}
+.prodSet p:hover{
+	color:white;
+}
+.compSet p{
+	cursor:pointer;
+}
+.compSet p:hover{
+	color:white;
+}
+.excSet p{
+	cursor:pointer;
+}
+.excSet p:hover{
+	color:white;
+}
+.stackOverflow{
+	font-size:13px;
+}
+.footerTitle h5{
+	font-size:13px;
+}
+.stackOverflow p{
+	font-size:13px;
+}
+.stackProducts p{
+	font-size:13px;
+}
+.stackCompany{
+	font-size:13px;
+}
+.stackExchange{
+	font-size:13px;
+}
+.social p{
+	cursor:pointer;
+}
+.social p:hover{
+	color:white;
+}
+.about{
+	font-size:11px;
+}
+.lastTxt a{
+	color:#BABFC5;
+}
